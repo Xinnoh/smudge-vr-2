@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5b044d01-2cfc-4942-885b-8d37c9e8b335}</ProjectGuid>
+    <ProjectGuid>{c3b6c275-e2b2-c3bd-96d6-4140711a5766}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -43,9 +43,12 @@
   <ItemGroup>
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandlerParabolic.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Firebase\StartCrashlytics.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Fire_Hose\Scripts\ScrollUV_Hose.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughProjectionSurface.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshUI.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\Displace.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableTool.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
@@ -58,6 +61,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\InteractableRegistry.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\PassthroughPlayInEditor.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\Joystick.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandler.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
@@ -82,13 +86,13 @@
      <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\UniStormClouds.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\DespawnObjectUniStorm.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughSurface.cs" />
-     <Compile Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Scripts\SetCustomDepthNormalShader.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportPoint.cs" />
-     <Compile Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Scripts\CTI_Utils.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiDeviceInspector.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiAxis2dInspector.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\ScreenSpaceCloudShadows.cs" />
+     <Compile Include="Assets\ANIMALS FULL PACK\Bear_Female\scripts\Demo_Animator_BearFemale.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI\CustomDebugUI.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FadeLightEffect.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
@@ -118,18 +122,24 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\HandsManager.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\StylusTip\StylusTip.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\UniStormPool.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\WaterTile.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\SceneSampler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNode.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\GenerateNoise.cs" />
      <Compile Include="Assets\WateringScript.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainLocomotive.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerThumbstick.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\SpecularLighting.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCrossingController.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Fire_Hose\Scripts\MouseLook_Hose.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\HandMeshMask.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Effects\UniStormAtmosphericFog.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionBlink.cs" />
+     <Compile Include="Assets\ANIMALS FULL PACK\Wolf_Male\scripts\Demo_Animator_WolfMale.cs" />
      <Compile Include="Assets\DynamicStarrySky\Scripts\BaseStarDataRenderer.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\MeshContainer.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\LightningSystem.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\BouncingBallLogic.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\UniStormCTSController.cs" />
@@ -152,22 +162,25 @@
      <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandlerHMD.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\HandsActiveChecker.cs" />
-     <Compile Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Scripts\CTI_CustomWind.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\BouncingBallMgr.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Demo\FPSCounter.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FadeParticleEffect.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\VirtualInput.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\UniStormSystem.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Demo\DemoUIController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\CowController.cs" />
+     <Compile Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\scripts\Demo_Animator_DeerCalf.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\VolumeAndPlaneSwitcher.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts\HandPose.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\EnableUnpremultipliedAlpha.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimVisualLaser.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\PlanarReflection.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\MoviePlayerSample.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Haptics\LocalizedHaptics.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\SimpleCapsuleWithStickMovement.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\TouchPad.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\HandedInputSelector.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabbable.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils\Pose.cs" />
@@ -176,6 +189,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\GrabManager.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\LightningEvent.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\TiltInput.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\CharacterCameraConstraint.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\SimpleResizer\SimpleResizable.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTransitionWarp.cs" />
@@ -187,12 +201,15 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts\LocomotionSampleSupport.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\LightningStrike.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\GerstnerDisplace.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\SpatialAnchorLoader.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Water_Splashes\Scripts\Big_Splash.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\DisableWeatherByTrigger.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Interactable.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\TouchControllers\TouchController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainCar.cs" />
+     <Compile Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\scripts\Demo_Animator_DeerDoe.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeTool.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\WeatherTypeByTrigger.cs" />
@@ -235,6 +252,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts\StartMenu.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\UniStormProfile.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\FurnitureSpawner.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\PinchStateModule.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\WindmillBladesController.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
@@ -248,6 +266,8 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\ObjectManipulator.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Water_Splashes\Scripts\Small_Splash.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Scripts\AnimatedFountainUVs.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
@@ -255,154 +275,125 @@
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\TurnOffLight.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportOrientationHandler360.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportAimHandler.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Garden_Hose\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\MobileControlRig.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts\OVROverlaySample.cs" />
+     <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
      <Compile Include="Assets\DynamicStarrySky\Scripts\StarPoint.cs" />
      <Folder Include="Assets" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\HIPPOPOTAMUS\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushG\BeechBushGWinter_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\fbx\RM_animations" />
      <Folder Include="Assets\vegetables\Ambient-Occlusion" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02\GenericTreeWinter02_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Golden Eagle\Prefabs" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\FBX\Materials" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\Prefabs" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushD\BeechBushDWinter_LOD" />
      <Folder Include="Assets\AllSkyFree\Cold Night" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeMixedF01_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldWinter_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Seagull\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\PIG" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\Dictation\Scripts\Runtime" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Wall.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Prefabs\GrabOffsetsAndPoses" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\StartScene\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushG\BeechBushGSummer_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Camera_Lens_Rain\FBX" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\TrainScene" />
      <Folder Include="Assets\UniStorm Weather System\Documentation" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_TreeCreatorLeavesOptimizedTumbling.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEFall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD\GenericBushDWinterB_LOD" />
      <Folder Include="Assets\AllSkyFree\_AllSkyFreeDemoEnvironment\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\COW\FBX FILES" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05\GenericTreeSummer05_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\Helpers" />
      <Folder Include="Assets\PostProcessing\Resources\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Audio" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\FBX" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\cloudsCommon.cginc" />
      <Folder Include="Assets\Oculus\Voice\Lib" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA" />
      <Folder Include="Assets\Oculus\Interaction\OVRIntegration" />
      <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\Includes\CTI_BillboardVertex.cginc" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Wit" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01Mixed_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Models\Materials\1. Delete this! Junk folder..txt" />
      <Folder Include="Assets\UniStorm Weather System\Network Integration" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\cloudsInclude.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushF\BeechBushFFall_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Camera_Lens_Rain\FBX\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassB\GrassBSummer_LOD" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_TreeCreatorBarkOptimizedTumbling.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Great Horned Owl\FBX Files" />
+     <Folder Include="Assets\Water_FX_Collection\Bathroom_Shower" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\ScreenSpaceCloudShadows.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01Winter_LOD" />
      <Folder Include="Assets\Oculus\Voice\Demo\Data" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushB\BeechBushBSummer_LOD" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Oculus\Voice\Demo\Textures" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\Includes\CTI_TranslucentLighting.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02GoldC_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB\GenericBushBWinterB_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Duck\Textures" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\Materials" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\textures" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03\GenericTreeFall03_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Prefabs\StylusTip" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\SHEEP\FBX FILES" />
      <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
      <Folder Include="Assets\UniStorm Weather System\Mesh\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushF\BeechBushFMixed_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\scripts" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthrough.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
      <Folder Include="Assets\PostProcessing\Runtime\Components" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Audio" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\Textures" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\SelectivePassthroughSoft.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DebugUI" />
      <Folder Include="Assets\UniStorm Weather System\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05\GenericTreeWinter05_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\OverwriteAlpha.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Duck\Prefabs" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Simple).shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\fbx" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STAG\TEXTURES" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Textures" />
      <None Include="Assets\Oculus\Interaction\package.json" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial\Moon Phases" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01WinterC_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldWinterC_LOD" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\LION" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Great Horned Owl\Prefabs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushC\BeechBushCMixed_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\COW\FBX FILES\Materials" />
      <Folder Include="Assets\PostProcessing\Resources" />
      <Folder Include="Assets\UniStorm Weather System\Mesh" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Materials" />
      <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\CHICKEN\TEXTURES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE\GenericBushESummer_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Examples" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\NewTouchControllers" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Textures" />
      <Folder Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE\GenericBushEFall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Models\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_LOD_Leaves.shader" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes\HDRSky\Note!.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02\GenericTreeFall02_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushA\BeechBushAWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\Flowers\FlowersSummer_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Scripts" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\Materials" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Textures" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushD" />
      <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Prefabs" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Lightning Strikes" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
      <Folder Include="Assets\Oculus\Interaction" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water" />
      <None Include="Assets\UniStorm Weather System\Shaders\Weather Effects.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Crickets" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushF" />
+     <None Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\Readme.txt" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\PassthroughLine.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Prefabs\FurniturePrefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Scripts" />
@@ -411,10 +402,8 @@
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Transparent).shader" />
      <Folder Include="Assets\XR" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Effects" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\Custom_Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeFall01_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Textures" />
      <Folder Include="Assets\AllSkyFree\_AllSkyFreeDemoEnvironment" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BEAR\TEXTURES" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\BackgroundColor.shader" />
      <None Include="Assets\UniStorm Weather System\Shaders\UniStorm Skybox.shader" />
@@ -425,520 +414,390 @@
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\Utils" />
      <Folder Include="Assets\AllSkyFree\Overcast Low" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB\GenericBushBWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03\GenericTreeWinter03B_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\CHICKEN\FBX FILES\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\Spruce" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Clouds" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Crow" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BOAR\TEXTURES" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins" />
      <Folder Include="Assets\PostProcessing\Editor Resources" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\FatFingers.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\GOAT\FBX Files" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes\HDRSky" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Materials\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushB" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types\Precipitation" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassB\GrassBWinter_LOD" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04\GenericTreeWinter04B_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Audio" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Standard).shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Models" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Default Components" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STANDARD WOLF\FBX Files" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03\GenericTreeWinter03_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\CROCODILE" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassB\GrassBFall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3" />
      <Folder Include="Assets\ANIMALS FULL PACK" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Prefabs\OutlineItems" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\_Readme CTI Runtime Components LWRP.txt" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_VegetationTerrain(Optimized)" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types\Non-Precipitation" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes\CaveTest" />
+     <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\RABBIT\FBX FILES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldMixedGA_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Audio" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\Dictation\Scripts" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Resources\CTI_Internal-DeferredShading.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Textures" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\CROCODILE\TEXTURES" />
      <Folder Include="Assets\UniStorm Weather System\Demo Source\Effect Profile" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05\GenericTreeWinter05C_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ZEBRA\FBX FILES" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Clouds" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BT02_BillboardSharedTexture" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\StylusTip" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Crow\FBX Files" />
+     <Folder Include="Assets\Water_FX_Collection" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Firebase\google-services.json" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\FBX" />
      <Folder Include="Assets\AllSkyFree\Epic_BlueSunset\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STANDARD WOLF" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Audio" />
+     <None Include="Assets\Water_FX_Collection\Water_Splashes\Water_Splashes - Documentation.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders" />
      <Folder Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\RABBIT\TEXTURES" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes\CaveTest\Note!.txt" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\FBX" />
      <Folder Include="Assets\UniStorm Weather System\URP Support" />
      <None Include="Assets\UniStorm Weather System\Shaders\UniStorm Moon.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\CROCODILE\Materials" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Systems" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\InvisibleOccluder.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01GoldB_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEGoldB_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\fbx" />
      <Folder Include="Assets\AllSkyFree\Cold Sunset" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB\GenericBushBSummer_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scenes" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\Prefabs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
      <Folder Include="Assets\UniStorm Weather System" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD\GenericBushDFall_LOD" />
+     <None Include="Assets\Water_FX_Collection\Fire_Hose\Fire_Hose - Documentation.txt" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Components\Resources" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Golden Eagle\Materials" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Models" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BEAR" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushJ" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BOAR\FBX FILES\Materials" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\Prefabs" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\1. Main Material Folder.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassA\GrassAWinter_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Sparrow\FBX Files" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\RHINOCEROS\TEXTURES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures\CTI_Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushG" />
+     <None Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Propeller_Wake_FX - Documentation.txt" />
      <Folder Include="Assets\Oculus\Voice\Scripts" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\CROCODILE\FBX FILES" />
      <Folder Include="Assets\Oculus\Voice\Demo\Prefabs" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather Icons" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01Fall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC\GenericBushCWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01WinterB_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\textures" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather\Snow" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts" />
+     <None Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\Readme.txt" />
      <None Include="Assets\DynamicStarrySky\README.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushA\BeechBushAFall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04\GenericTreeSummer04_LOD" />
      <Folder Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Plugins" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\renderCloudShadows.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB\GenericBushBWinterC_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Materials" />
      <Folder Include="Assets\TextMesh Pro" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02Mixed_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Resources" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE" />
      <Folder Include="Assets\AllSkyFree\Night MoonBurst" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Duck\FBX Files" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\Textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Models" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Components" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Great Horned Owl\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC\GenericBushCWinterC_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\FBX\Materials" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Textures" />
+     <None Include="Assets\Water_FX_Collection\Bathroom_Shower\Bathroom_Shower - Documentation.txt" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\fbx\IP_animations" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\scripts" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\TTS\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui" />
      <Folder Include="Assets\DynamicStarrySky\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\_Readme_Unity2018.2_and_above.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA\GenericBushAWinterC_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Prefabs" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\noiseGeneration.compute" />
      <Folder Include="Assets\Oculus" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldWinterB_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushB\BeechBushBWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03\GenericTreeSummer03_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\Includes\CTI_Builtin4xTreeLibraryTumbling.cginc" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core" />
+     <None Include="Assets\ANIMALS FULL PACK\Bear_Female\Readme.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushD\BeechBushDFall_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Demo" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Sparrow\Prefabs" />
      <Folder Include="Assets\UniStorm Weather System\Demo Source" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04\GenericTreeFall04_LOD" />
      <Folder Include="Assets\Oculus\Voice\Lib\PlatformCompatibility" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02\GenericTreeWinter02C_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\Flowers" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassA" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon\FBX Files\Materials" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_LOD_Billboard.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02WinterC_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ELEPHANT\Materials" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4" />
      <Folder Include="Assets\PostProcessing" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushI" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Meshs" />
      <None Include="Assets\DynamicStarrySky\Shaders\StarrySky.shader" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\DetailsTerrain(Optimized)\1. Sub Prefab Folder.txt" />
      <Folder Include="Assets\UniStorm Weather System\UniStorm Profiles" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STANDARD WOLF\Materials" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures\1. Main Texture Folder.txt" />
      <Folder Include="Assets\UniStorm Weather System\Demo Source\Terrain" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05\GenericTreeFall05_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB\GenericBushBFall_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushA\BeechBushASummer_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ZEBRA\TEXTURES" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\FBX" />
+     <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <Folder Include="Assets\PostProcessing\Utilities" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\FBX\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female" />
      <Folder Include="Assets\DynamicStarrySky\Demos" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEGoldC_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\skybox" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Prefabs" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC\GenericBushCSummer_LOD" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\_Readme.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushH" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Textures" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Golden Eagle" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Shaders\Multiview Stereo.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DistanceGrab" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Sparrow\Textures" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Weather\Fire" />
      <Folder Include="Assets\vegetables\Ambient-Occlusion\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BTO_BillboardSharedTexture" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360" />
      <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
      <Folder Include="Assets\Oculus\Voice\Resources" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC\GenericBushCFall_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA\GenericBushASummer_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\FOX\TEXTURES" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Great Horned Owl\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Prefabs" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Audio" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Haptics" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Scripts" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeSummer01_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushA\BeechBushAMixed_LOD" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Default Correct.shader" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Shaders\Resources" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Great Horned Owl" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers" />
      <Folder Include="Assets\PostProcessing\Editor Resources\Monitors" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Scripts" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\1. Main Prefab Folder.txt" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Shaders" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
      <Folder Include="Assets\DynamicStarrySky\Scripts" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\COW\TEXTURES" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\RHINOCEROS" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\fbx\IP_animations" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Textures" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Materials" />
      <Folder Include="Assets\PostProcessing\Runtime\Utils" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\PhysicsMaterials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\FOX" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes\1. UnityTerrain_Summer (Warning! Huge Map!).txt" />
+     <Folder Include="Assets\Water_FX_Collection\Camera_Lens_Rain\Audio" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\FBX\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ZEBRA\FBX FILES\Materials" />
      <Folder Include="Assets\Oculus\Voice\Demo" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02\GenericTreeWinter02B_LOD" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\CTI_Materials\1. CTI Material Folder.txt" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures\Textures_Update 2.2\0. Texture V2.1.txt" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STAG\FBX FILES\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Skyboxes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Scripts" />
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE\GenericBushEWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEGoldA_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushC\BeechBushCFall_LOD" />
      <Folder Include="Assets\PostProcessing\Runtime\Attributes" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushC\BeechBushCWinter_LOD" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Scripts" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\HIPPOPOTAMUS\TEXTURES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\Cube Library_Materials" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\Dictation" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Icons" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushG\BeechBushGMixed_LOD" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Models" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassA\GrassASummer_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STAG\FBX FILES" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushB\BeechBushBMixed_LOD" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_LOD_Bark_Tess_DX11.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scenes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts" />
      <Folder Include="Assets\DynamicStarrySky" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04\GenericTreeWinter04C_LOD" />
      <Folder Include="Assets\XR\Loaders" />
      <Folder Include="Assets\AllSkyFree\Cold Sunset\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ELEPHANT" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Terrains" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Gradle" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Crow\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Animations" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\Includes\CTI_indirect.cginc" />
+     <Folder Include="Assets\Water_FX_Collection\Bathroom_Shower\FBX" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Models" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStormSimpleClear.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA\GenericBushAFall_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Prefabs" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Prefabs" />
      <Folder Include="Assets\DynamicStarrySky\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Models" />
      <Folder Include="Assets\vegetables\Ambient-Occlusion\aTextures" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Demo" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Default Components\Resources" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Shaders\1. Custom Shaders.txt" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Thunder" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Materials" />
      <None Include="Assets\Oculus\Voice\Lib\Wit.ai\Resources\witai_texts_en-us.json" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\DetailsTerrain(Optimized)" />
      <Folder Include="Assets\Oculus\Voice" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01GoldC_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STANDARD WOLF\TEXTURES" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Resources\CTI_Internal-DeferredReflections.shader" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\Audio" />
      <Folder Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Scripts" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Grass" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Gradient" />
      <Folder Include="Assets\Oculus\Voice\Features" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Materials" />
+     <Folder Include="Assets\Water_FX_Collection\Bathroom_Shower\Textures" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials" />
      <Folder Include="Assets\UniStorm Weather System\Scripts" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures\CTI_Textures\1. CTI Texture Folder.txt" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Demo\Wood" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_VegetationTerrain(Optimized)\1. CTI Terrain Tree Prefab Folder.txt" />
      <Folder Include="Assets\vegetables" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\PIG\FBX FILES\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\HIPPOPOTAMUS" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushD\BeechBushDSummer_LOD" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Effects" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Textures\ControllerBoxTextures" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\GOAT" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\SHEEP\TEXTURES" />
      <Folder Include="Assets\Oculus\Voice\Features\Dictation\Scripts" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Seagull\FBX Files" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Crow\Textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Models" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Sparrow\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushB\BeechBushBFall_LOD" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_Debug.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Textures\Textures_Update 2.2" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\fbx" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial\Moon Phases\Type 1" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Weather Effects" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Golden Eagle\FBX Files" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\FBX Files" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Materials" />
      <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
      <Folder Include="Assets\AllSkyFree\Space_AnotherPlanet" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Clouds" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStormSunShafts.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldSummer_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Models" />
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02GoldB_LOD" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
+     <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <Folder Include="Assets\AllSkyFree\Cartoon Base BlueSky\Materials" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushD\BeechBushDMixed_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\CTI_Materials\CTI_MaterialBaseImport" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts" />
+     <None Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\Garden_Lawn_Sprinkler - Documentation.txt" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Ambience" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushC\BeechBushCSummer_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Models" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEWinter_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\Audio" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\FBX" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02Summer_LOD" />
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Seagull\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeMixedS01_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\PlatformSpecific" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Prefabs" />
      <Folder Include="Assets\PostProcessing\Resources\Bluenoise64" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldMixed_LOD" />
      <Folder Include="Assets\_TerrainAutoUpgrade" />
+     <Folder Include="Assets\Water_FX_Collection\Camera_Lens_Rain" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldGoldB_LOD" />
      <Folder Include="Assets\PostProcessing\Runtime" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_LOD_Bark_Array.shader" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Resources" />
      <Folder Include="Assets\PostProcessing\Utilities\CustomMotionTexture" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02GoldA_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab" />
      <None Include="Assets\UniStorm Weather System\Additional Credit\Credit.txt" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Scenes" />
+     <None Include="Assets\ANIMALS FULL PACK\Wolf_Male\Readme.txt" />
      <None Include="Assets\UniStorm Weather System\Shaders\UniStorm Sun.shader" />
      <Folder Include="Assets\UniStorm Weather System\Network Integration\UnityPackages" />
+     <None Include="Assets\Water_FX_Collection\Beach_Waves\Beach_Waves - Documentation.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial\Moon Phases\Type 2" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Audio" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\Particles" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushC\GenericBushCWinterB_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA\GenericBushAWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02Winter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD\GenericBushDWinterC_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD\GenericBushDSummer_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\RHINOCEROS\FBX FILES\Materials" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Cubemap" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Shaders" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials\GlowEffect.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion\Models" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Prefabs" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushD\GenericBushDWinter_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\GOAT\TEXTURES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02WinterB_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushA" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\textures" />
      <None Include="Assets\UniStorm Weather System\Shaders\Lightning Bolt.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05\GenericTreeWinter05B_LOD" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Systems\Resources" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushEMixed_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Celestial" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\UniStorm Weather System\Shaders\UniStorm Stars.shader" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders" />
      <None Include="Assets\vegetables\readme.txt" />
      <Folder Include="Assets\music" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01GoldA_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Prefabs" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather\Particles" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushF\BeechBushFSummer_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Prefabs" />
      <Folder Include="Assets\Toby Fredson" />
      <Folder Include="Assets\UniStorm Weather System\Textures" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Seagull\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\ZEBRA" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\Textures\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Skyboxes\Sky_01" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Materials\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree03\GenericTreeWinter03C_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\STAG" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\1. Read Me!.txt" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Animations" />
      <Folder Include="Assets\UniStorm Weather System\Scenes" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\prefabs" />
+     <None Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Realistic_Water_Fountain - Documentation.txt" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
      <None Include="Assets\UniStorm Weather System\URP Support\READ THIS FIRST.txt" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\FBX\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\renderClouds.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\CTI_Materials" />
      <Folder Include="Assets\UniStorm Weather System\Cloud Profiles" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Golden Eagle\Textures" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\Textures" />
      <Folder Include="Assets\AllSkyFree" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Demo" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushA\GenericBushAWinterB_LOD" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\TTS" />
      <Folder Include="Assets\DynamicStarrySky\Models\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Sparrow" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BeecthTree01Summer_LOD" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\scripts" />
+     <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\GOAT\Materials" />
+     <None Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Shaders\Water_Shader.shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\prefabs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\FOX\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree04\GenericTreeWinter04_LOD" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\CHICKEN" />
+     <Folder Include="Assets\AllSkyFree\Cartoon Base NightSky\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java\com" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeWinter01C_LOD" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial\Aurora" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Mesh" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered Opaque.shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\fbx\IP_animations" />
      <Folder Include="Assets\Oculus\Voice\Features\Dictation\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\SimpleResizer" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Wind" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Seagull" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Prefabs" />
      <Folder Include="Assets\Oculus\Voice\Demo\Audio" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Weather" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\CTI_LOD_Bark.shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\fbx" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStormAtmosphericFog.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Firebase" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BOAR\FBX FILES" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\fbx\RM_animations" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\PassthroughShadow.shader" />
      <Folder Include="Assets\AllSkyFree\Epic_GloriousPink\Materials" />
      <Folder Include="Assets\DynamicStarrySky\Models" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Scripts" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BOAR" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Textures" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Resources" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Duck\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\prefabs" />
      <Folder Include="Assets\PostProcessing\Runtime\Models" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeWinter01_LOD" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Prefab" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Footsteps" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree05" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Terrain" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\RABBIT\FBX FILES\Materials" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials\Custom_Materials\1. Custom Material Folder.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\UniStorm Weather System\Additional Credit" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\VolumetricClouds.shader" />
      <Folder Include="Assets\AllSkyFree\Epic_GloriousPink" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\_Readme_VegetationStudioPro.txt" />
      <Folder Include="Assets\AllSkyFree\Cartoon Base NightSky" />
+     <None Include="Assets\Water_FX_Collection\Garden_Hose\Garden_Hose - Documentation.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Materials" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\LOD\1. LOD Folder.txt" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Textures" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\SceneObjectPreview.shader" />
      <Folder Include="Assets\UniStorm Weather System\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\CHICKEN\FBX FILES" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Prerendered.shader" />
-     <Folder Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Shaders\Includes" />
+     <Folder Include="Assets\AllSkyFree\Deep Dusk\Materials" />
      <None Include="Assets\Oculus\Voice\Resources\voicesdk_texts_en-us.json" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01" />
-     <None Include="Assets\Toby Fredson\Custom Tree Importer v3\CTI Runtime Components\Resources\CTI_Camera-DepthNormalTexture.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Scripts" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
      <Folder Include="Assets\AllSkyFree\Epic_BlueSunset" />
      <Folder Include="Assets\AllSkyFree\Deep Dusk" />
@@ -947,1003 +806,981 @@
      <Folder Include="Assets\Oculus\SampleFramework\Core\HandsInteraction" />
      <Folder Include="Assets\DynamicStarrySky\Materials" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Shaders\SnowCoverShader.shader" />
      <Folder Include="Assets\Oculus\Voice\Demo\Materials" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushB" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\StylizedOcclusions.shader" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Lib\Conduit" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Icons\Resources" />
      <Folder Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\SHEEP\FBX FILES\Materials" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\LION\Materials" />
      <Folder Include="Assets\TextMesh Pro\Documentation" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassA\GrassAFall_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\FBX\Materials" />
      <Folder Include="Assets\Oculus\Voice\Demo\Scenes" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02\BeecthTree02Fall_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\FBX" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\StartScene" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Textures" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushC" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Textures" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Components" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE\GenericBushEWinterB_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Fire_Hose\FBX" />
      <Folder Include="Assets\Oculus\Voice\Features\Dictation\Plugins" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldMixedGB_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\System" />
+     <Folder Include="Assets\Water_FX_Collection\Bathroom_Shower\FBX\Materials" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Spec).shader" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\RABBIT" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree02\GenericTreeSummer02_LOD" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types\Auroras" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\SHEEP" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Firebase" />
      <Folder Include="Assets\Oculus\Voice\Features\Dictation" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeMixedW01_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericBushE\GenericBushEWinterC_LOD" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Models" />
+     <Folder Include="Assets\Water_FX_Collection\Garden_Hose\FBX\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\GlassMask.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushE\BeechBushESummer_LOD" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Textures" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types\Special" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Prefabs\Ui" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Birds" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\PIG\TEXTURES" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\COW" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Pigeon\FBX Files" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BEAR\FBX FILES" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\Merged" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Crow\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\AFRICAN ANIMALS PACK\ANIMALS\RHINOCEROS\FBX FILES" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts" />
+     <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Skyboxes\Sky_02" />
+     <Folder Include="Assets\Water_FX_Collection\Water_Splashes\Scripts" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\fbx\RM_animations" />
      <Folder Include="Assets\DynamicStarrySky\Textures" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushF\BeechBushFWinter_LOD" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree02" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Models" />
      <Folder Include="Assets\AllSkyFree\Cartoon Base BlueSky" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\CustomHands" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Prefabs" />
-     <Folder Include="Assets\ANIMALS FULL PACK\Birds Pack\Duck" />
      <Folder Include="Assets\XR\Settings" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GrassB" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Materials" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Auroras.shader" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTree01\BT01_BillboardSharedTexture" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FARM ANIMALS PACK\ANIMALS\PIG\FBX FILES" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\fbx\RM_animations" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
      <Folder Include="Assets\UniStorm Weather System\Prefabs\Weather Particle Effects" />
-     <Folder Include="Assets\ANIMALS FULL PACK\FOREST ANIMALS PACK\ANIMALS\BEAR\FBX FILES\Materials" />
+     <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\fbx\IP_animations" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video" />
      <Folder Include="Assets\PostProcessing\Editor Resources\UI" />
      <Folder Include="Assets\UniStorm Weather System\Sounds" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeechBushG\BeechBushGFall_LOD" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java\com\oculus\videoplayer" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Prefabs" />
      <Folder Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Models" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\BeecthTreeOld\BeecthTreeOldGoldA_LOD" />
-     <None Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\1. Main CTI Prefab Folder.txt" />
+     <None Include="Assets\Water_FX_Collection\Water_Splashes\LeftMouseForBigSplash_RightMouseForSmallSplash.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Shaders" />
-     <Folder Include="Assets\Toby Fredson\Rocky Hills Environment - Pro\Prefabs\CTI_Vegetation\CTI_LOD\GenericTree01\GenericTreeWinter01B_LOD" />
      <None Include="Assets\Oculus\SampleFramework\license.txt" />
      <Reference Include="UnityEngine">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ARModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AccessibilityModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AndroidJNIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AnimationModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AssetBundleModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterInputModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClusterRendererModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CrashReportingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DSPGraphModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.DirectorModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GameCenterModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.GridModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.HotReloadModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.IMGUIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ImageConversionModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.InputLegacyModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.JSONSerializeModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PerformanceReportingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.PhysicsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.Physics2DModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ProfilerModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ScreenCaptureModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SharedInternalsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteMaskModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpriteShapeModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.StreamingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubstanceModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SubsystemsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TLSModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TerrainPhysicsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreFontEngineModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextCoreTextEngineModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TextRenderingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.TilemapModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UIElementsNativeModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UNETModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UmbraModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityConnectModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityCurlModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityTestProtocolModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VFXModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VRModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VehiclesModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VideoModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.VirtualTexturingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.WindModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XRModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.CoreModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.DeviceSimulatorModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.DiagnosticsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.GraphViewModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.PackageManagerUIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.PresetsUIModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.QuickSearchModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SceneTemplateModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TextCoreFontEngineModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.TextCoreTextEngineModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIBuilderModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIElementsSamplesModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UIServiceModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UnityConnectModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
      <Reference Include="ReportGeneratorMerged">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.testtools.codecoverage@1.1.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
      </Reference>
      <Reference Include="Newtonsoft.Json">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Gradle">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
      </Reference>
      <Reference Include="netstandard">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
      </Reference>
      <Reference Include="Microsoft.Win32.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.AppContext">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
      </Reference>
      <Reference Include="System.Buffers">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Concurrent">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.NonGeneric">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
      </Reference>
      <Reference Include="System.Collections.Specialized">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.EventBasedAsync">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.TypeConverter">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
      </Reference>
      <Reference Include="System.Console">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
      </Reference>
      <Reference Include="System.Data.Common">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Contracts">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Debug">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.FileVersionInfo">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Process">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.StackTrace">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TextWriterTraceListener">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Tools">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.TraceSource">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
      </Reference>
      <Reference Include="System.Diagnostics.Tracing">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
      </Reference>
      <Reference Include="System.Drawing.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Dynamic.Runtime">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Calendars">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
      </Reference>
      <Reference Include="System.Globalization.Extensions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression.ZipFile">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
      </Reference>
      <Reference Include="System.IO">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.DriveInfo">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.FileSystem.Watcher">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.IsolatedStorage">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.MemoryMappedFiles">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Pipes">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.UnmanagedMemoryStream">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Expressions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Parallel">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Linq.Queryable">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
      </Reference>
      <Reference Include="System.Memory">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Http">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NameResolution">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.NetworkInformation">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Ping">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Requests">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Security">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.Sockets">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebHeaderCollection">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets.Client">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
      </Reference>
      <Reference Include="System.Net.WebSockets">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics.Vectors">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
      </Reference>
      <Reference Include="System.ObjectModel">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.DispatchProxy">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.ILGeneration">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Emit.Lightweight">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Extensions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Reflection.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Reader">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.ResourceManager">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
      </Reference>
      <Reference Include="System.Resources.Writer">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.CompilerServices.VisualC">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Extensions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Handles">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Numerics">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Formatters">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Json">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization.Xml">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Claims">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Algorithms">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Csp">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Encoding">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.Primitives">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Cryptography.X509Certificates">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.Principal">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
      </Reference>
      <Reference Include="System.Security.SecureString">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.Encoding.Extensions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Text.RegularExpressions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Overlapped">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks.Extensions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Tasks.Parallel">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Thread">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.ThreadPool">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
      </Reference>
      <Reference Include="System.Threading.Timer">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
      </Reference>
      <Reference Include="System.ValueTuple">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.ReaderWriter">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XDocument">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlDocument">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XmlSerializer">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.XPath.XDocument">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="System.ComponentModel.Composition">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
      </Reference>
      <Reference Include="System.Core">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
      </Reference>
      <Reference Include="System.Data">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
      </Reference>
      <Reference Include="System">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
      </Reference>
      <Reference Include="System.Drawing">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
      </Reference>
      <Reference Include="System.IO.Compression.FileSystem">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
      </Reference>
      <Reference Include="System.Net">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
      </Reference>
      <Reference Include="System.Numerics">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="System.ServiceModel.Web">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
      </Reference>
      <Reference Include="System.Transactions">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
      </Reference>
      <Reference Include="System.Web">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
      </Reference>
      <Reference Include="System.Windows">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Linq">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Serialization">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     <HintPath>D:\Unity\Hub\Editor\2022.1.22f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.InputSystem">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
      <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Management.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
      <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.SpatialTracking">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
      </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Users\wusiy\Desktop\smudge_new\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Meta.VoiceSDK.Mic.WebGL.csproj">
-      <Project>{16ddd52f-c4c4-23e2-8621-507149ad28b4}</Project>
+      <Project>{0caa4c3d-0c01-65c9-1fc1-5e90ea599155}</Project>
       <Name>Meta.VoiceSDK.Mic.WebGL</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKEditor.csproj">
-      <Project>{cf0d243d-deaa-9083-7ab9-9b9ca65f5f31}</Project>
+      <Project>{f1222f66-25c0-7d0c-6006-18bca2fa661c}</Project>
       <Name>AssistantCoreSDKEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Voice.Demo.csproj">
-      <Project>{3618e564-9772-5cec-1a41-29f2c4c7195a}</Project>
+      <Project>{945ad0a5-c82a-4107-7a02-a56dc00efb2c}</Project>
       <Name>Oculus.Voice.Demo</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.csproj">
-      <Project>{ce90b2fa-e463-954c-2f9e-ad6981109985}</Project>
+      <Project>{2ae3121e-a10b-80f6-9889-619b4a304c07}</Project>
       <Name>Oculus.AudioManager</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
-      <Project>{fd9bd3b4-ed70-60af-08ac-52cef27920b1}</Project>
+      <Project>{dc067beb-8bdb-8bd7-bb23-ef190c950aff}</Project>
       <Name>Meta.VoiceSDK.Mic.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{0a73d0f3-45b9-fca1-2d2d-1ca8a66111f8}</Project>
+      <Project>{48dfeb7f-e3ac-2e98-abe7-bdaa293fe87e}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
     <ProjectReference Include="AssistantCoreSDKRuntime.csproj">
-      <Project>{e57e5df7-ad1e-7f0a-4c6f-e9b26f24e2a3}</Project>
+      <Project>{de9b144b-ac1c-e06b-7bee-c46815a4c272}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{3bb4a19b-dd86-bf54-5f62-b4d4c5564ff0}</Project>
+      <Project>{0ca60780-4ce3-3f82-eef0-7c87bf3bd49e}</Project>
       <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.csproj">
-      <Project>{ec81398d-af0d-407d-c5eb-b977c8c54cbd}</Project>
+      <Project>{005040ab-9ab6-cd6c-b628-76cbde7e69cd}</Project>
       <Name>Meta.WitAi.Conduit</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
-      <Project>{7181ce45-aa64-16cc-5034-f5dc29ab5e11}</Project>
+      <Project>{b20096b5-a7e8-b9cc-90db-d86b02c1efa4}</Project>
       <Name>Oculus.Interaction.OVR</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.csproj">
-      <Project>{c9f9b8ad-8989-461c-0eb7-855b179ed529}</Project>
+      <Project>{9038d648-0a1f-793c-4fd8-e210bb312e77}</Project>
       <Name>Meta.WitAi</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.Editor.csproj">
-      <Project>{9c9e2f4a-c63d-3f82-c2a9-d80accb0fcc9}</Project>
+      <Project>{dfff727f-695c-148e-df7a-386e80f9e8ad}</Project>
       <Name>Facebook.Wit.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Facebook.Wit.Dictation.csproj">
-      <Project>{c51a0ebf-6abb-fd69-4a6f-4ca1e1ee2ead}</Project>
+      <Project>{b787e696-6b43-b51a-46e2-3d0c87efea71}</Project>
       <Name>Facebook.Wit.Dictation</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{e82a05d5-b197-d9d3-b665-dcb83e94e1e0}</Project>
+      <Project>{5b61c87e-4efa-e9ed-7008-10edb9b3188f}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.AudioManager.Audio.Editor.csproj">
-      <Project>{ba59640b-fde4-f55c-6cda-a59aa03ba213}</Project>
+      <Project>{1483d861-f263-1f1a-2304-a20f84da239d}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
-      <Project>{3efb1f09-f877-d928-b83f-8708d46238d4}</Project>
+      <Project>{76189dff-93e1-f405-1421-87885d9d3c0a}</Project>
       <Name>Meta.WitAI.Lib.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
-      <Project>{cb2866e1-d9a3-2c77-f2fe-744be3d7bd54}</Project>
+      <Project>{6eb69550-ceda-6aa4-e2a3-371cdd9fe397}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.csproj">
-      <Project>{b97169c5-c1c7-20ec-15ae-062600d7a199}</Project>
+      <Project>{277fdb5f-a3d2-2661-9972-88f08b83b646}</Project>
       <Name>Meta.WitAi.TTS</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Editor.csproj">
-      <Project>{d0581f13-a53b-0076-dc78-594d063ca07d}</Project>
+      <Project>{76107d14-520d-822f-b9d3-c8613af515a8}</Project>
       <Name>Meta.WitAi.TTS.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.Editor.csproj">
-      <Project>{ec19b1a7-ff66-b245-c819-a0ae6d465092}</Project>
+      <Project>{7728249f-cba1-cb99-5adc-b0027ffd8625}</Project>
       <Name>Oculus.Platform.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Samples.csproj">
-      <Project>{496b7d0b-7de4-e328-198c-41e25c9dd39f}</Project>
+      <Project>{90c06b8b-3947-e1f5-19c9-905a5dc6dec6}</Project>
       <Name>Oculus.Interaction.OVR.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{3e537b38-8c60-9366-6cc2-5cb567ec6fce}</Project>
+      <Project>{ab3cf25e-e41a-c49b-e0a2-062371b50561}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Samples.Editor.csproj">
-      <Project>{6931ec18-8b3a-29f7-9599-88542ae23bbc}</Project>
+      <Project>{ff57ffad-8a90-491d-a327-3dd21f34f213}</Project>
       <Name>Oculus.Interaction.Samples.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.Editor.csproj">
-      <Project>{3e7df69c-e6f5-1f3c-9450-f4f37ed8803f}</Project>
+      <Project>{88742dbb-cc3b-f2e8-159b-4739f5f93269}</Project>
       <Name>Oculus.Interaction.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{e76ca186-f0dd-baab-b702-6e9217f13c0a}</Project>
+      <Project>{218b0b49-972c-dfb6-3a0a-351d494812fb}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.csproj">
-      <Project>{b000b79b-2f67-50d0-2d97-9d5956eb226d}</Project>
+      <Project>{fd6cb2d2-bc19-a5ab-303d-d96346499d23}</Project>
       <Name>Oculus.Spatializer</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Other.csproj">
-      <Project>{d0d5e925-1807-c6ae-300c-7edb4fc1708a}</Project>
+      <Project>{d2ec53cf-6c18-0b6b-c919-85ebbfa778e1}</Project>
       <Name>Meta.VoiceSDK.Mic.Other</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.Editor.csproj">
-      <Project>{fe6d2f5c-a0ac-4f9f-3f7d-b4fd903909e3}</Project>
+      <Project>{aba844cf-7553-24e5-ef28-1781c6a15904}</Project>
       <Name>Meta.WitAi.Conduit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
-      <Project>{1f6dc92f-876c-8ee5-212b-db702f443b52}</Project>
+      <Project>{389ba275-d57c-2e45-a76a-31a875977b96}</Project>
       <Name>Oculus.Platform</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Editor.csproj">
-      <Project>{80c015b1-6707-ed80-f41b-38c6db1c9b62}</Project>
+      <Project>{b980e958-91d1-bf3c-a48f-1052b36444a8}</Project>
       <Name>VoiceSDK.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.InterfaceSupport.csproj">
-      <Project>{1483c4bf-05fa-3b7b-3a6e-758b705a4969}</Project>
+      <Project>{a7eed288-eb53-ce85-8f06-88e5f539c1e4}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Editor.csproj">
-      <Project>{233ecb37-3d1f-2fcc-49ca-37f99cd01e66}</Project>
+      <Project>{a758ed21-f46f-515b-6c67-d80ac3824f6d}</Project>
       <Name>Meta.WitAi.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Editor.csproj">
-      <Project>{f2c67b4a-7289-5d54-2809-80d1f14fc32f}</Project>
+      <Project>{f98f1ab0-1773-61c8-7b84-71d4af2c14f7}</Project>
       <Name>Oculus.Interaction.OVR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{1c1717fa-efbc-1cda-f8d6-818608f32854}</Project>
+      <Project>{a72046ad-49a4-0edc-badb-bef30d7aaabb}</Project>
       <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
-      <Project>{90d6a6df-3003-f7c7-6969-eece7263d515}</Project>
+      <Project>{18e0ae90-5b40-37cd-b62b-f68494c942c3}</Project>
       <Name>VoiceSDK.Dictation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
-      <Project>{b3d3f2e4-3b82-f4e2-5e46-57cb1d7b0502}</Project>
+      <Project>{63df748a-b244-87f7-c354-0160492ef229}</Project>
       <Name>Oculus.LipSync.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Samples.csproj">
-      <Project>{580bd10c-ec7c-9cf7-0071-428a1665c68a}</Project>
+      <Project>{cb750857-353d-c76c-a6b0-ac8632ff60b9}</Project>
       <Name>Meta.WitAi.TTS.Samples</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.LipSync.csproj">
-      <Project>{9ef61307-6ec4-2aeb-6003-50405b86309a}</Project>
+      <Project>{4a836d85-8879-e759-f049-b6fb687d03e3}</Project>
       <Name>Oculus.LipSync</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{341f8e10-90d6-a56a-10ea-07310663efa2}</Project>
+      <Project>{27b331eb-e3b0-21b9-20bb-d35bacac6f6d}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
-      <Project>{79f7826f-4887-0c80-0b94-dd483fdf4c6e}</Project>
+      <Project>{1465b05f-90fc-c121-e3cd-61d04f71b3f7}</Project>
       <Name>Meta.WitAi.Lib</Name>
     </ProjectReference>
   </ItemGroup>

@@ -2,37 +2,43 @@ using UnityEngine;
 
 public class WateringScript : MonoBehaviour
 {
-    public GameObject plantObject;         // Reference to the plant object
-    public GameObject grownPlantObject;    // Reference to the grown plant object
-    public float growthTime = 10f;         // Time it takes for the plant to grow after watering
+    public ParticleSystem wateringParticles;
 
-    private bool isWatering = false;       // Flag to track if the plant is being watered
+    private bool isGrabbed = false;
 
-    private void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.CompareTag("Plant"))
+        // Check for grab input from the player
+        if (Input.GetKeyDown(KeyCode.B))
         {
-            isWatering = true;
-            Invoke("ChangePlantModel", growthTime);
+            if (isGrabbed)
+            {
+                StopWatering();
+            }
+            else
+            {
+                StartWatering();
+            }
+
+            isGrabbed = !isGrabbed;
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void StartWatering()
     {
-        if (other.CompareTag("Plant"))
+        // Activate the particle system
+        if (wateringParticles != null)
         {
-            isWatering = false;
-            CancelInvoke("ChangePlantModel");
+            wateringParticles.Play();
         }
     }
 
-    private void ChangePlantModel()
+    private void StopWatering()
     {
-        if (isWatering)
+        // Deactivate the particle system
+        if (wateringParticles != null)
         {
-            plantObject.SetActive(false);
-            grownPlantObject.SetActive(true);
-            Debug.Log("Plant has grown!");
+            wateringParticles.Stop();
         }
     }
 }
