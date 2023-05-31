@@ -1,1 +1,1 @@
-Always remove the library folder before uploading
+remove library and big assets before uploading
