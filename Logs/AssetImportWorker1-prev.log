@@ -15,7 +15,7 @@ D:/GitHub/smudge-vr-2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49962
+50259
 Successfully changed project path to: D:/GitHub/smudge-vr-2
 D:/GitHub/smudge-vr-2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/GitHub/smudge-vr-2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 120.30 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 116.45 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.34 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GitHub/smudge-vr-2/Assets
@@ -64,58 +64,57 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002593 seconds.
+Registered in 0.002441 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 109.50 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 108.09 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.608 seconds
+- Completed reload, in  0.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (608ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (577ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (464ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
-				TypeCache.Initialize (109ms)
-					TypeCache.ScanAssembly (107ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (97ms)
+				TypeCache.Initialize (96ms)
+					TypeCache.ScanAssembly (95ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (284ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004724 seconds.
-Android Extension - Scanning For ADB Devices 641 ms
+Registered in 0.005163 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 112.19 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.03 ms.
+Refreshing native plugins compatible for Editor in 109.15 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -145,31 +144,31 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.305 seconds
+- Completed reload, in  1.339 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1306ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1340ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1106ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (128ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (287ms)
-				TypeCache.Initialize (277ms)
-					TypeCache.ScanAssembly (271ms)
-				ResolveRequiredComponents (10ms)
+			SetupTypeCache (277ms)
+				TypeCache.Initialize (263ms)
+					TypeCache.ScanAssembly (255ms)
+				ResolveRequiredComponents (14ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (595ms)
+			SetupLoadedEditorAssemblies (569ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (112ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (336ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (109ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (322ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -179,13 +178,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5875 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (425.1 KB). Loaded Objects now: 6341.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5876 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (424.6 KB). Loaded Objects now: 6343.
 Memory consumption went from 0.99 GB to 0.99 GB.
-Total: 5.192300 ms (FindLiveObjects: 0.698200 ms CreateObjectMapping: 0.630400 ms MarkObjects: 3.558000 ms  DeleteObjects: 0.303800 ms)
+Total: 5.012000 ms (FindLiveObjects: 0.613600 ms CreateObjectMapping: 0.453200 ms MarkObjects: 3.528300 ms  DeleteObjects: 0.415600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -200,314 +199,52 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 232.677169 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Rock2TileSnowRHE_AlbedoRock2TileRHE_Normal923406309d5c0073.terrainlayer
-  artifactKey: Guid(6efeace0745c0c44e93a3f40c34c02fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Rock2TileSnowRHE_AlbedoRock2TileRHE_Normal923406309d5c0073.terrainlayer using Guid(6efeace0745c0c44e93a3f40c34c02fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7315907e073e53c49c9a9e8be40872dd') in 0.060967 seconds 
+  Time since last request: 77536.502620 seconds.
+  path: Assets/Water_FX_Collection/Realistic_Water_Fountain/Prefabs/Water_Fountain.prefab
+  artifactKey: Guid(192f590134fc4ce4c9a42a7501bf1e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Realistic_Water_Fountain/Prefabs/Water_Fountain.prefab using Guid(192f590134fc4ce4c9a42a7501bf1e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537e8b9a840375d7f86c7656d426239e') in 0.226243 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_Rock2TileRHE_AlbedoRock2TileRHE_Normal3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(ce91c5a5e144d5749850eaba68a16313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_Rock2TileRHE_AlbedoRock2TileRHE_Normal3d3aba195e4d26ee.terrainlayer using Guid(ce91c5a5e144d5749850eaba68a16313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf783fd165e52c76033c57b8c7473e') in 0.005491 seconds 
+  Time since last request: 22.052837 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Audio/Ocean_Audio.mp3
+  artifactKey: Guid(2ed697d81db87c14ba0097e2679603d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Audio/Ocean_Audio.mp3 using Guid(2ed697d81db87c14ba0097e2679603d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf221a376831fd852fdba6ad0ac792e') in 0.025042 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.807651 seconds.
-  path: Assets/UniStorm Weather System/Resources/Components/Resources/UniStorm Auroras.prefab
-  artifactKey: Guid(2b1db32096cdc6a47b8b2efc9bdb64b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniStorm Weather System/Resources/Components/Resources/UniStorm Auroras.prefab using Guid(2b1db32096cdc6a47b8b2efc9bdb64b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e8caaf4c79fe3dca2d0f580e4d6969') in 0.061066 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Audio/Small_Splash_Audio.mp3
+  artifactKey: Guid(86d1b399b03aefa49aeab36a8815de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Audio/Small_Splash_Audio.mp3 using Guid(86d1b399b03aefa49aeab36a8815de4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8339f92aa8d37c9931ab046c3e8b9c') in 0.007699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 607.242627 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Textures/BigSplash_Jet_TextureSheet_Lowres.tif
+  artifactKey: Guid(d1753446a353e684a99d3999f938e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Textures/BigSplash_Jet_TextureSheet_Lowres.tif using Guid(d1753446a353e684a99d3999f938e526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfc31bd5ada69b3eaf52ed5396f5a34') in 0.032086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Textures/SmallSplash_Ripples_TextureSheet_Lowres.tif
+  artifactKey: Guid(baa3e7220edf80044bd18c4ef07b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Textures/SmallSplash_Ripples_TextureSheet_Lowres.tif using Guid(baa3e7220edf80044bd18c4ef07b2252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000dabead4afb558fe9a94682d809a62') in 0.022011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Textures/SmallSplash_Ripples_TextureSheet.tif
+  artifactKey: Guid(1c04556ee96b19643a51660b3fd94de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Textures/SmallSplash_Ripples_TextureSheet.tif using Guid(1c04556ee96b19643a51660b3fd94de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde75f9498c37055d8b24731e9b6d1af') in 0.024393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Water_FX_Collection/Water_Splashes/Textures/Water_Mist_TextureSheet_Lowres.tif
+  artifactKey: Guid(f9488820317b5cd47be1b9ac6f1f3d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Textures/Water_Mist_TextureSheet_Lowres.tif using Guid(f9488820317b5cd47be1b9ac6f1f3d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b304bbf2ee084332afa61805fdc96f') in 0.011779 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/UniStorm Weather System/Resources/Components/Resources/UniStorm Skybox.mat
-  artifactKey: Guid(f049e97d2aadb8f4cb24f80ca9ad0962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniStorm Weather System/Resources/Components/Resources/UniStorm Skybox.mat using Guid(f049e97d2aadb8f4cb24f80ca9ad0962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541ac8acd3b1421000d89a2cb136b733') in 0.033894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UniStorm Weather System/Materials/Clouds/UniStorm Volumetric Clouds.mat
-  artifactKey: Guid(65d6033269ef8534bb4f3852880e42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniStorm Weather System/Materials/Clouds/UniStorm Volumetric Clouds.mat using Guid(65d6033269ef8534bb4f3852880e42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ce9acb443f493210b5a035306c6aa7') in 0.281110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.590513 seconds.
-  path: Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png
-  artifactKey: Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Textures/OCUIIconSet/OCUI_24_Filled_2x.png using Guid(64f884351318b694f942625580e64a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04deaad5c627e05f1cb06de10072b3e4') in 1.237778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.465239 seconds.
-  path: Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef
-  artifactKey: Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef using Guid(b93f844d45cfcc44fa2b0eed5c9ec6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f66bc2f7c476d16d79b1abb62ad6d4b') in 0.002058 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.300744 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Unity.InputSystem.asmdef
-  artifactKey: Guid(75469ad4d38634e559750d17036d5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Unity.InputSystem.asmdef using Guid(75469ad4d38634e559750d17036d5f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8ddf2f2326877dc03f3daa797eb2e3') in 0.001098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.performance.profile-analyzer/Editor/Unity.Performance.Profile-Analyzer.Editor.asmdef
-  artifactKey: Guid(211d499e772b640dbb43b9de9b957156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.performance.profile-analyzer/Editor/Unity.Performance.Profile-Analyzer.Editor.asmdef using Guid(211d499e772b640dbb43b9de9b957156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e1b91fbdd5bc62df0e3ae47702f40c') in 0.001901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.428456 seconds.
-  path: Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef
-  artifactKey: Guid(1104de264d522446f8274872ebf70b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Runtime/Analytics/Unity.Services.Core.Analytics.asmdef using Guid(1104de264d522446f8274872ebf70b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e21de5180ebcef651702d57197af8') in 0.001421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.227520 seconds.
-  path: Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef
-  artifactKey: Guid(70ea675efa2644cef98c7ece24158333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Runtime/Environments/Unity.Services.Core.Environments.asmdef using Guid(70ea675efa2644cef98c7ece24158333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb0a6f3e4d3cc8962d0e09a6bfd36bf') in 0.001419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef
-  artifactKey: Guid(f82009cf854e040a18ebb38251781c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Runtime/Core.Internal/Unity.Services.Core.Internal.asmdef using Guid(f82009cf854e040a18ebb38251781c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecd5083059f14a7bd7c4c1f9950a5fb') in 0.001065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015626 seconds.
-  path: Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef
-  artifactKey: Guid(13e422d7b3aa04e7994f974a3d50c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.services.core/Runtime/Scheduler/Unity.Services.Core.Scheduler.asmdef using Guid(13e422d7b3aa04e7994f974a3d50c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e699cee35f8143d216fd34c47dc9b18') in 0.001459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011453 seconds.
-  path: Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef
-  artifactKey: Guid(b8c9b6a82a342504c8e4a2747471d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager/Tests/Editor/Unity.Settings.Editor.Tests.asmdef using Guid(b8c9b6a82a342504c8e4a2747471d23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08adfc268bdf068e8fef80521e56cca0') in 0.001258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef
-  artifactKey: Guid(f06555f75b070af458a003d92f9efb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef using Guid(f06555f75b070af458a003d92f9efb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb5ee6ca61713c49405d17a3793673b') in 0.001539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.718878 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef
-  artifactKey: Guid(54cb1906aeb4e4264bc1d2aa3818a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/Unity.VisualScripting.Core.Editor.asmdef using Guid(54cb1906aeb4e4264bc1d2aa3818a43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d779f7767d899182bf13fb98a8c770') in 0.001984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043656 seconds.
-  path: Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef
-  artifactKey: Guid(315d634a9ac6d460a9515f5a56be6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Runtime/VisualScripting.State/Unity.VisualScripting.State.asmdef using Guid(315d634a9ac6d460a9515f5a56be6311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c810d1b0953a11ab645abb1135c2fea6') in 0.001221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004606 seconds.
-  path: Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef
-  artifactKey: Guid(f46fc3751c3e84133af5527f7c1abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.management/Tests/Editor/Unity.XR.Management.EditorTests.asmdef using Guid(f46fc3751c3e84133af5527f7c1abae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b453141b5864604e8b3d7a12634539dc') in 0.001444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Packages/com.unity.xr.oculus/Runtime/Unity.XR.Oculus.asmdef
-  artifactKey: Guid(4af21795022437d4bb139a86514b9ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.oculus/Runtime/Unity.XR.Oculus.asmdef using Guid(4af21795022437d4bb139a86514b9ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67927252171ad09d3e9afbf2bd82995') in 0.001583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010464 seconds.
-  path: Packages/com.unity.xr.openxr/OculusQuest/Runtime/Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef
-  artifactKey: Guid(a9582160ded7e3c46829c5005bf42835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.openxr/OculusQuest/Runtime/Unity.XR.OpenXR.Features.OculusQuestSupport.asmdef using Guid(a9582160ded7e3c46829c5005bf42835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507cfbda005d2ae99aae438f8ad1090f') in 0.001961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Packages/com.unity.xr.openxr/Tests/Runtime/Unity.XR.OpenXR.Tests.asmdef
-  artifactKey: Guid(2023fa18bf9504e98b11fe2174802802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.openxr/Tests/Runtime/Unity.XR.OpenXR.Tests.asmdef using Guid(2023fa18bf9504e98b11fe2174802802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8654b5458c89c0c968a261ab9edc824e') in 0.001663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.217627 seconds.
-  path: Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef
-  artifactKey: Guid(ba171b3dd2a51234ab864770f99741a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/UnityEngine.SpatialTracking.asmdef using Guid(ba171b3dd2a51234ab864770f99741a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ffe182ad4d87aefd3d8224696c6fca') in 0.002071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef
-  artifactKey: Guid(2bafac87e7f4b9b418d9448d219b01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ugui/Runtime/UnityEngine.UI.asmdef using Guid(2bafac87e7f4b9b418d9448d219b01ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f843430cd59a8c4e047d9a7ec06cb12c') in 0.001893 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007016 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.082 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1083ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (877ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-				TypeCache.Initialize (273ms)
-					TypeCache.ScanAssembly (267ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (421ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (292ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.50 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 5718 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (392.3 KB). Loaded Objects now: 6392.
-Memory consumption went from 0.96 GB to 0.96 GB.
-Total: 5.998800 ms (FindLiveObjects: 0.743400 ms CreateObjectMapping: 0.410900 ms MarkObjects: 4.495500 ms  DeleteObjects: 0.346900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004657 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  0.921 seconds
-Domain Reload Profiling:
-	ReloadAssembly (921ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (735ms)
-			LoadAssemblies (73ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-				TypeCache.Initialize (232ms)
-					TypeCache.ScanAssembly (225ms)
-				ResolveRequiredComponents (10ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 4.52 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 5719 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 66 unused Assets / (399.4 KB). Loaded Objects now: 6396.
-Memory consumption went from 0.96 GB to 0.96 GB.
-Total: 3.588700 ms (FindLiveObjects: 0.549100 ms CreateObjectMapping: 0.252500 ms MarkObjects: 2.624300 ms  DeleteObjects: 0.160200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Water_FX_Collection/Water_Splashes/Textures/BigSplash_Wake_TextureSheet.tif
+  artifactKey: Guid(a8a1fcea86d7e8743bb14466ef00bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Water_FX_Collection/Water_Splashes/Textures/BigSplash_Wake_TextureSheet.tif using Guid(a8a1fcea86d7e8743bb14466ef00bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55981b269b6782b40df2f985e8d9d8a9') in 0.021363 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
