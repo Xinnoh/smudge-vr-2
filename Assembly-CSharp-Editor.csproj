@@ -84,6 +84,7 @@
      <Compile Include="Assets\PostProcessing\Editor\Models\DepthOfFieldModelEditor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Gradle\Editor\Utils.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\CurveEditor.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Editor\AnimalSFXEditor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\PostProcessingInspector.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Firebase\Editor\FirebaseEnabler.cs" />
@@ -107,6 +108,7 @@
      <Folder Include="Assets\Visual Design Cafe\ShaderX\Editor" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Editor" />
      <Folder Include="Assets\DynamicStarrySky\Editor" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\Editor" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Editor" />
      <Folder Include="Assets\PostProcessing\Editor\Attributes" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\Editor" />
@@ -394,6 +396,9 @@
      <Reference Include="VisualDesignCafe.Rendering.Instancing.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.TextureAssets">
      <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
      </Reference>
@@ -414,6 +419,9 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.IonicZip">
      <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="VisualDesignCafe.Editor.PackageManager">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll</HintPath>
@@ -436,8 +444,17 @@
      <Reference Include="VisualDesignCafe.Nature">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
      <Reference Include="unityplastic">
      <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="VisualDesignCafe.ShaderX.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll</HintPath>
@@ -841,6 +858,9 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -853,11 +873,11 @@
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -868,6 +888,12 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
@@ -877,14 +903,29 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.Management">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -904,6 +945,12 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
@@ -919,8 +966,17 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -940,6 +996,9 @@
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.OpenXR">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
      </Reference>
@@ -954,6 +1013,9 @@
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
@@ -995,10 +1057,6 @@
       <Project>{de9b144b-ac1c-e06b-7bee-c46815a4c272}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{0ca60780-4ce3-3f82-eef0-7c87bf3bd49e}</Project>
-      <Name>Oculus.AudioManager.Utils.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.csproj">
       <Project>{005040ab-9ab6-cd6c-b628-76cbde7e69cd}</Project>
       <Name>Meta.WitAi.Conduit</Name>
@@ -1006,6 +1064,10 @@
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
       <Project>{b20096b5-a7e8-b9cc-90db-d86b02c1efa4}</Project>
       <Name>Oculus.Interaction.OVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{0ca60780-4ce3-3f82-eef0-7c87bf3bd49e}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.csproj">
       <Project>{9038d648-0a1f-793c-4fd8-e210bb312e77}</Project>
@@ -1027,13 +1089,13 @@
       <Project>{1483d861-f263-1f1a-2304-a20f84da239d}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
-      <Project>{76189dff-93e1-f405-1421-87885d9d3c0a}</Project>
-      <Name>Meta.WitAI.Lib.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
       <Project>{6eb69550-ceda-6aa4-e2a3-371cdd9fe397}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
+      <Project>{76189dff-93e1-f405-1421-87885d9d3c0a}</Project>
+      <Name>Meta.WitAI.Lib.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.csproj">
       <Project>{277fdb5f-a3d2-2661-9972-88f08b83b646}</Project>
@@ -1091,17 +1153,13 @@
       <Project>{a7eed288-eb53-ce85-8f06-88e5f539c1e4}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAi.Editor.csproj">
-      <Project>{a758ed21-f46f-515b-6c67-d80ac3824f6d}</Project>
-      <Name>Meta.WitAi.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Editor.csproj">
       <Project>{f98f1ab0-1773-61c8-7b84-71d4af2c14f7}</Project>
       <Name>Oculus.Interaction.OVR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{a72046ad-49a4-0edc-badb-bef30d7aaabb}</Project>
-      <Name>VoiceSDK.Dictation.Editor</Name>
+    <ProjectReference Include="Meta.WitAi.Editor.csproj">
+      <Project>{a758ed21-f46f-515b-6c67-d80ac3824f6d}</Project>
+      <Name>Meta.WitAi.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
       <Project>{18e0ae90-5b40-37cd-b62b-f68494c942c3}</Project>
@@ -1110,6 +1168,10 @@
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{63df748a-b244-87f7-c354-0160492ef229}</Project>
       <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
+      <Project>{a72046ad-49a4-0edc-badb-bef30d7aaabb}</Project>
+      <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Samples.csproj">
       <Project>{cb750857-353d-c76c-a6b0-ac8632ff60b9}</Project>

@@ -2,43 +2,25 @@ using UnityEngine;
 
 public class WateringScript : MonoBehaviour
 {
-    public ParticleSystem wateringParticles;
+    public ParticleSystem wateringParticles; // Reference to the watering particle system
 
-    private bool isGrabbed = false;
+    private bool isWatering = false; // Flag to track if watering is currently active
 
     private void Update()
     {
-        // Check for grab input from the player
-        if (Input.GetKeyDown(KeyCode.B))
+        // Check for button B input
+        if (OVRInput.GetDown(OVRInput.Button.Two))
         {
-            if (isGrabbed)
-            {
-                StopWatering();
-            }
-            else
-            {
-                StartWatering();
-            }
-
-            isGrabbed = !isGrabbed;
-        }
-    }
-
-    private void StartWatering()
-    {
-        // Activate the particle system
-        if (wateringParticles != null)
-        {
+            Debug.Log("Button B Pressed");
+            // Start watering by enabling the particle system
             wateringParticles.Play();
+            isWatering = true;
         }
-    }
-
-    private void StopWatering()
-    {
-        // Deactivate the particle system
-        if (wateringParticles != null)
+        else if (OVRInput.GetUp(OVRInput.Button.Two))
         {
+            // Stop watering by disabling the particle system
             wateringParticles.Stop();
+            isWatering = false;
         }
     }
 }

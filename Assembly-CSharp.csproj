@@ -67,6 +67,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorSession.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\SpatialAnchorSession.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\AnimalSFX.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
      <Compile Include="Assets\Visual Design Cafe\Nature Renderer\Runtime\NatureRenderer.SRP.cs" />
@@ -94,9 +95,11 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiAxis2dInspector.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Clouds\ScreenSpaceCloudShadows.cs" />
      <Compile Include="Assets\ANIMALS FULL PACK\Bear_Female\scripts\Demo_Animator_BearFemale.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\AnimalSFXAudioClips.cs" />
      <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\UseReferenceCamera.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI\CustomDebugUI.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FadeLightEffect.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\AnimalSFXPlayer.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughController.cs" />
      <Compile Include="Assets\SceneChange.cs" />
@@ -150,6 +153,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\OverlayPassthrough.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\SFXDemoSceneUIController.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Components\FireLight.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
@@ -220,6 +224,7 @@
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\VRState.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandlerNavMesh.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\ObjectChanger.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\ControllerBoxController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\Spawnable.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Scripts\ButtonDownListener.cs" />
@@ -263,6 +268,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportInputHandlerTouch.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\RequestCaptureFlow.cs" />
+     <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\PlayerDemoSceneUIController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\Anchor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\SimpleResizer\SimpleResizer.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableToolView.cs" />
@@ -270,11 +276,12 @@
      <Compile Include="Assets\UniStorm Weather System\Scripts\System\Perlin.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\ObjectManipulator.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
      <Compile Include="Assets\Water_FX_Collection\Water_Splashes\Scripts\Small_Splash.cs" />
+     <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\LocomotionTeleport.cs" />
      <Compile Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Scripts\AnimatedFountainUVs.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\Blendshape.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Scripts\OVROverlayCanvas.cs" />
      <Compile Include="Assets\UniStorm Weather System\Scripts\Examples\TurnOffLight.cs" />
@@ -292,14 +299,15 @@
      <Compile Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportTargetHandler.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughStyler.cs" />
-     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\DynamicStarrySky\Scripts\StarPoint.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\fbx\RM_animations" />
      <Folder Include="Assets\vegetables\Ambient-Occlusion" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowers" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Materials" />
+     <Folder Include="Assets\Models" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI" />
      <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler\FBX\Materials" />
@@ -308,6 +316,7 @@
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\prefabs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <Folder Include="Assets\AllSkyFree\Cold Night" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo" />
      <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLES3.hlsl" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\Hidden.shader" />
@@ -323,10 +332,12 @@
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai" />
      <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals" />
      <Folder Include="Assets\AllSkyFree\_AllSkyFreeDemoEnvironment\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
      <Folder Include="Assets\PostProcessing\Resources\Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Audio" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Boar" />
      <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\FBX" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\cloudsCommon.cginc" />
@@ -349,9 +360,11 @@
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
      <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
      <Folder Include="Assets\Oculus\Voice\Demo\Textures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Pigeon" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts" />
      <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Common" />
      <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Crow" />
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\Materials" />
      <None Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Third-Party Notices.txt" />
      <Folder Include="Assets\ANIMALS FULL PACK\Bear_Female\textures" />
@@ -373,6 +386,7 @@
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DebugUI" />
      <Folder Include="Assets\UniStorm Weather System\Shaders" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX" />
      <None Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Shaders\OverwriteAlpha.shader" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Simple).shader" />
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\fbx" />
@@ -386,8 +400,10 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
      <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Scripts" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Zebra" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Prefabs" />
      <Folder Include="Assets\PostProcessing\Resources" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Bear" />
      <Folder Include="Assets\UniStorm Weather System\Mesh" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay\Materials" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic" />
@@ -421,7 +437,9 @@
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Textures" />
      <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Plugins" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Chicken" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Transparent).shader" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Seagull" />
      <Folder Include="Assets\XR" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Effects" />
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Textures" />
@@ -438,6 +456,7 @@
      <Folder Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink\UI" />
      <Folder Include="Assets\Water_FX_Collection\Fire_Hose" />
      <Folder Include="Assets\UniStorm Weather System\Materials\Clouds" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Renderer" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins" />
@@ -452,25 +471,28 @@
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStorm Weather Shader (Standard).shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Models" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Prefabs" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Great Horned Owl" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Duck" />
      <Folder Include="Assets\ANIMALS FULL PACK" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Ground\Source Assets" />
-     <Folder Include="Assets\Visual Design Cafe" />
      <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\Metal.hlsl" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Prefabs\OutlineItems" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
-     <Folder Include="Assets\Visual Design Cafe\Nature Renderer" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types\Non-Precipitation" />
      <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Audio" />
      <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates\Lit" />
+     <Folder Include="Assets\Visual Design Cafe\ShaderX" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\Dictation\Scripts" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowers\Source Assets" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Textures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Rhinoceros" />
      <Folder Include="Assets\UniStorm Weather System\Demo Source\Effect Profile" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Clouds" />
+     <Folder Include="Assets\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\StylusTip" />
      <Folder Include="Assets\Water_FX_Collection" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Firebase\google-services.json" />
@@ -499,8 +521,8 @@
      <Folder Include="Assets\UniStorm Weather System\Resources\Components\Resources" />
      <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\Materials" />
      <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
-     <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Templates" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\Sprites" />
      <Folder Include="Assets\Water_FX_Collection\Water_Splashes\Prefabs" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders" />
@@ -510,14 +532,17 @@
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather Icons" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Rocks\Source Assets" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\Visual Design Cafe" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves" />
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\textures" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather\Snow" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Water\Scripts" />
      <None Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\Readme.txt" />
      <None Include="Assets\DynamicStarrySky\README.txt" />
+     <Folder Include="Assets\Animals Full Pack Sound FX" />
      <Folder Include="Assets\Water_FX_Collection\Realistic_Water_Fountain\Materials" />
      <Folder Include="Assets\Oculus\Voice\Lib\PlatformCompatibility\Plugins" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Sheep" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\renderCloudShadows.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Materials" />
      <Folder Include="Assets\TextMesh Pro" />
@@ -537,9 +562,11 @@
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui" />
      <Folder Include="Assets\DynamicStarrySky\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals" />
      <Folder Include="Assets\UniStorm Weather System\Prefabs" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\noiseGeneration.compute" />
      <Folder Include="Assets\Oculus" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Lion" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Trees\Source Assets\Materials" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
      <None Include="Assets\Visual Design Cafe\Nature Renderer\Resources\Nature Renderer Instancing.compute" />
@@ -549,13 +576,19 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Demo" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space" />
+     <Folder Include="Assets\Visual Design Cafe\Nature Shaders" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Pig" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Materials" />
      <Folder Include="Assets\UniStorm Weather System\Demo Source" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Hippopotamus" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Grass\Source Assets" />
      <Folder Include="Assets\Oculus\Voice\Lib\PlatformCompatibility" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Crocodile" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Resources" />
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\textures" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\AppDeeplink" />
+     <Folder Include="Assets\Textures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\Scripts" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4" />
      <Folder Include="Assets\PostProcessing" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Meshs" />
@@ -592,7 +625,6 @@
      <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Prefabs" />
      <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Audio" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Timeline" />
-     <Folder Include="Assets\Visual Design Cafe\Nature Shaders" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Haptics" />
      <None Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms\GLCore.hlsl" />
      <None Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Shaders\UI Default Correct.shader" />
@@ -622,10 +654,12 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <Folder Include="Assets\Water_FX_Collection\Garden_Hose\Scripts" />
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Textures" />
      <Folder Include="Assets\PostProcessing\Runtime\Attributes" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas\Scripts" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Fox" />
      <Folder Include="Assets\Oculus\Voice\Lib\Wit.ai\Features\Dictation" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Icons" />
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Models" />
@@ -647,6 +681,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
      <Folder Include="Assets\Water_FX_Collection\Bathroom_Shower\FBX" />
      <Folder Include="Assets\Visual Design Cafe\Nature Shaders\Conversion Profiles" />
+     <Folder Include="Assets\Textures\Bark Bowl" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\CustomHands\Models" />
      <None Include="Assets\UniStorm Weather System\Resources\Shaders\Resources\UniStormSimpleClear.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Prefabs" />
@@ -678,9 +713,11 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample" />
      <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Horse" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Effects" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Textures\ControllerBoxTextures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Sparrow" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts" />
      <Folder Include="Assets\Oculus\Voice\Features\Dictation\Scripts" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
@@ -703,6 +740,8 @@
      <Folder Include="Assets\TextMesh Pro\Fonts" />
      <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\African Animals\Elephant" />
+     <None Include="Assets\Materials\Shell.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <Folder Include="Assets\AllSkyFree\Cartoon Base BlueSky\Materials" />
@@ -721,7 +760,6 @@
      <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\PlatformSpecific" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts" />
-     <Folder Include="Assets\Visual Design Cafe\ShaderX" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Prefabs" />
      <Folder Include="Assets\PostProcessing\Resources\Bluenoise64" />
      <Folder Include="Assets\UniStorm Weather System\Resources\Shaders" />
@@ -769,7 +807,6 @@
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Prefabs" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Weather\Particles" />
      <Folder Include="Assets\Water_FX_Collection\Fire_Hose\Prefabs" />
-     <Folder Include="Assets\Toby Fredson" />
      <Folder Include="Assets\UniStorm Weather System\Textures" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX" />
@@ -778,6 +815,7 @@
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Materials\Materials" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\TouchControllers\Animations" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Rabbit" />
      <Folder Include="Assets\UniStorm Weather System\Scenes" />
      <Folder Include="Assets\Water_FX_Collection\Garden_Lawn_Sprinkler" />
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Doe\prefabs" />
@@ -787,6 +825,7 @@
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\FBX\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlay" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\renderClouds.shader" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Monkey" />
      <Folder Include="Assets\UniStorm Weather System\Cloud Profiles" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro" />
      <Folder Include="Assets\ANIMALS FULL PACK\Golden Eagle\Textures" />
@@ -807,6 +846,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
      <Folder Include="Assets\AllSkyFree\Cartoon Base NightSky\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java\com" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Cow" />
      <Folder Include="Assets\Resources" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Celestial\Aurora" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Mesh" />
@@ -829,6 +869,7 @@
      <Folder Include="Assets\DynamicStarrySky\Demos\Space\Scripts" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Materials" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SharedAssets\Textures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds\Golden Eagle" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
@@ -839,9 +880,11 @@
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\Prefab" />
      <Folder Include="Assets\Visual Design Cafe\ShaderX\Templates\Common\Platforms" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Footsteps" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\Prefabs" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Locomotion" />
      <Folder Include="Assets\UniStorm Weather System\Textures\Terrain" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Turkey" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <Folder Include="Assets\UniStorm Weather System\Additional Credit" />
      <None Include="Assets\UniStorm Weather System\Resources\Clouds\VolumetricClouds.shader" />
@@ -849,6 +892,7 @@
      <Folder Include="Assets\AllSkyFree\Cartoon Base NightSky" />
      <None Include="Assets\Water_FX_Collection\Garden_Hose\Garden_Hose - Documentation.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Materials" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Standard Wolf" />
      <Folder Include="Assets\UniStorm Weather System\Weather Types" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Textures" />
@@ -879,6 +923,7 @@
      <Folder Include="Assets\Water_FX_Collection\Propeller_Wake_FX\FBX" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\StartScene" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Textures" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Goat" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\DebugUI\Textures" />
      <Folder Include="Assets\UniStorm Weather System\Scripts\Components" />
      <Folder Include="Assets\Water_FX_Collection\Fire_Hose\FBX" />
@@ -902,6 +947,7 @@
      <Folder Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Prefabs\Ui" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art\Flowering Plants\Source Assets" />
      <Folder Include="Assets\UniStorm Weather System\Sounds\Birds" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Farm Animals\Rooster" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts" />
      <Folder Include="Assets\Water_FX_Collection\Beach_Waves\Water\Environment\Water" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\StartScene\Scripts" />
@@ -921,6 +967,7 @@
      <Folder Include="Assets\ANIMALS FULL PACK\Deers\Deer Family\Deer_Calf\fbx\RM_animations" />
      <Folder Include="Assets\ANIMALS FULL PACK\Wolf_Male\Materials" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Birds" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer\Shader Includes" />
      <Folder Include="Assets\UniStorm Weather System\Prefabs\Weather Particle Effects" />
      <Folder Include="Assets\Visual Design Cafe\Nature Renderer Demo\Realistic\Art" />
@@ -928,6 +975,7 @@
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video" />
      <Folder Include="Assets\PostProcessing\Editor Resources\UI" />
      <Folder Include="Assets\UniStorm Weather System\Sounds" />
+     <Folder Include="Assets\Animals Full Pack Sound FX\SFX\Forest Animals\Stag" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\OVROverlayCanvas" />
      <Folder Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\java\com\oculus\videoplayer" />
      <Folder Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Prefabs" />
@@ -1197,6 +1245,9 @@
      <Reference Include="VisualDesignCafe.Rendering.Instancing.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Rendering.Instancing.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
      <Reference Include="VisualDesignCafe.Memory">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Nature Renderer\Plugins\VisualDesignCafe.Memory.dll</HintPath>
      </Reference>
@@ -1211,6 +1262,9 @@
      </Reference>
      <Reference Include="VisualDesignCafe.ShaderX">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
      </Reference>
      <Reference Include="VisualDesignCafe.Editor.PackageManager">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Package Manager\VisualDesignCafe.Editor.PackageManager.dll</HintPath>
@@ -1229,6 +1283,15 @@
      </Reference>
      <Reference Include="VisualDesignCafe.Nature">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\Nature Shaders\Plugins\VisualDesignCafe.Nature.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.burst@1.7.4\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
      </Reference>
      <Reference Include="VisualDesignCafe.ShaderX.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Assets\Visual Design Cafe\ShaderX\Plugins\VisualDesignCafe.ShaderX.Editor.dll</HintPath>
@@ -1614,6 +1677,9 @@
      <Reference Include="Unity.VSCode.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
@@ -1626,11 +1692,11 @@
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -1641,6 +1707,12 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.SpatialTracking">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
      </Reference>
@@ -1650,14 +1722,29 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.Management">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.Oculus.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Flow.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="PPv2URPConverters">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -1677,6 +1764,12 @@
      <Reference Include="Unity.TextMeshPro">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
@@ -1692,8 +1785,17 @@
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -1713,6 +1815,9 @@
      <Reference Include="UnityEditor.XR.LegacyInputHelpers">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.XR.OpenXR">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
      </Reference>
@@ -1727,6 +1832,9 @@
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Editor">
+     <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
      <HintPath>D:\GitHub\smudge-vr-2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
@@ -1764,10 +1872,6 @@
       <Project>{de9b144b-ac1c-e06b-7bee-c46815a4c272}</Project>
       <Name>AssistantCoreSDKRuntime</Name>
     </ProjectReference>
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
-      <Project>{0ca60780-4ce3-3f82-eef0-7c87bf3bd49e}</Project>
-      <Name>Oculus.AudioManager.Utils.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.csproj">
       <Project>{005040ab-9ab6-cd6c-b628-76cbde7e69cd}</Project>
       <Name>Meta.WitAi.Conduit</Name>
@@ -1775,6 +1879,10 @@
     <ProjectReference Include="Oculus.Interaction.OVR.csproj">
       <Project>{b20096b5-a7e8-b9cc-90db-d86b02c1efa4}</Project>
       <Name>Oculus.Interaction.OVR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj">
+      <Project>{0ca60780-4ce3-3f82-eef0-7c87bf3bd49e}</Project>
+      <Name>Oculus.AudioManager.Utils.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.csproj">
       <Project>{9038d648-0a1f-793c-4fd8-e210bb312e77}</Project>
@@ -1796,13 +1904,13 @@
       <Project>{1483d861-f263-1f1a-2304-a20f84da239d}</Project>
       <Name>Oculus.AudioManager.Audio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
-      <Project>{76189dff-93e1-f405-1421-87885d9d3c0a}</Project>
-      <Name>Meta.WitAI.Lib.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Spatializer.Editor.csproj">
       <Project>{6eb69550-ceda-6aa4-e2a3-371cdd9fe397}</Project>
       <Name>Oculus.Spatializer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meta.WitAI.Lib.Editor.csproj">
+      <Project>{76189dff-93e1-f405-1421-87885d9d3c0a}</Project>
+      <Name>Meta.WitAI.Lib.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.csproj">
       <Project>{277fdb5f-a3d2-2661-9972-88f08b83b646}</Project>
@@ -1860,17 +1968,13 @@
       <Project>{a7eed288-eb53-ce85-8f06-88e5f539c1e4}</Project>
       <Name>Oculus.Interaction.InterfaceSupport</Name>
     </ProjectReference>
-    <ProjectReference Include="Meta.WitAi.Editor.csproj">
-      <Project>{a758ed21-f46f-515b-6c67-d80ac3824f6d}</Project>
-      <Name>Meta.WitAi.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.OVR.Editor.csproj">
       <Project>{f98f1ab0-1773-61c8-7b84-71d4af2c14f7}</Project>
       <Name>Oculus.Interaction.OVR.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
-      <Project>{a72046ad-49a4-0edc-badb-bef30d7aaabb}</Project>
-      <Name>VoiceSDK.Dictation.Editor</Name>
+    <ProjectReference Include="Meta.WitAi.Editor.csproj">
+      <Project>{a758ed21-f46f-515b-6c67-d80ac3824f6d}</Project>
+      <Name>Meta.WitAi.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Dictation.Runtime.csproj">
       <Project>{18e0ae90-5b40-37cd-b62b-f68494c942c3}</Project>
@@ -1879,6 +1983,10 @@
     <ProjectReference Include="Oculus.LipSync.Editor.csproj">
       <Project>{63df748a-b244-87f7-c354-0160492ef229}</Project>
       <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VoiceSDK.Dictation.Editor.csproj">
+      <Project>{a72046ad-49a4-0edc-badb-bef30d7aaabb}</Project>
+      <Name>VoiceSDK.Dictation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.TTS.Samples.csproj">
       <Project>{cb750857-353d-c76c-a6b0-ac8632ff60b9}</Project>
