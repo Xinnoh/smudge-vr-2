@@ -2,22 +2,63 @@ using UnityEngine;
 
 public class WateringInteraction : MonoBehaviour
 {
-    public GameObject wateringCanPrefab; // Prefab of the watering can
-    public Transform spawnPoint; // Point where the watering can will be spawned
+    public ParticleSystem wateringParticles;
 
-    private GameObject currentWateringCan; // Reference to the spawned watering can
+    private bool isGrabbed = false;
+    private bool isTouched = false;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isTouched = true;
+            PlayWateringParticles();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isTouched = false;
+            StopWateringParticles();
+        }
+    }
 
     private void Update()
     {
-        // Check for interaction input (e.g., button press)
-        if (Input.GetButtonDown("Interact"))
+        if (Input.GetKeyDown(KeyCode.Space) && isGrabbed)
         {
-            // Check if there is no active watering can
-            if (currentWateringCan == null)
-            {
-                // Spawn the watering can at the designated spawn point
-                currentWateringCan = Instantiate(wateringCanPrefab, spawnPoint.position, spawnPoint.rotation);
-            }
+            if (wateringParticles.isPlaying)
+                StopWateringParticles();
+            else
+                PlayWateringParticles();
+        }
+    }
+
+    private void PlayWateringParticles()
+    {
+        if (isGrabbed || isTouched)
+        {
+            wateringParticles.Play();
+        }
+    }
+
+    private void StopWateringParticles()
+    {
+        wateringParticles.Stop();
+    }
+
+    public void SetIsGrabbed(bool grabbed)
+    {
+        isGrabbed = grabbed;
+        if (grabbed)
+        {
+            PlayWateringParticles();
+        }
+        else
+        {
+            StopWateringParticles();
         }
     }
 }
