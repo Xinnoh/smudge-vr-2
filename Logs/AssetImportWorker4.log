@@ -1,0 +1,313 @@
+Unity Editor version:    2022.1.22f1 (6b6e9fc2adda)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.4 (Build 22F66)
+Darwin version:          22.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+/Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49588
+Successfully changed project path to: /Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2
+/Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 170.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 5.45 ms.
+Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56819
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005074 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 142.11 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.647 seconds
+Domain Reload Profiling:
+	ReloadAssembly (648ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (97ms)
+				TypeCache.Initialize (96ms)
+					TypeCache.ScanAssembly (95ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (263ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014702 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/pattiderbyshire/Library/CloudStorage/OneDrive-RiseConsulting/Documents/GitHub/smudge-vr-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 151.57 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.651 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1652ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1401ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+				TypeCache.Initialize (249ms)
+					TypeCache.ScanAssembly (246ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (786ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (152ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (466ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launching external process: /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.21 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.43 ms.
+Unloading 7669 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (3.2 MB). Loaded Objects now: 8116.
+Memory consumption went from 1.20 GB to 1.20 GB.
+Total: 15.218583 ms (FindLiveObjects: 0.459916 ms CreateObjectMapping: 0.191084 ms MarkObjects: 13.016667 ms  DeleteObjects: 1.550083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5704.717875 seconds.
+  path: Assets/music/Voice Over
+  artifactKey: Guid(da90ea9ca20ca4d4d9b24c988e5a80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over using Guid(da90ea9ca20ca4d4d9b24c988e5a80e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433c24a2fc59909c2893877ac88c6a8b') in 0.005200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.980826 seconds.
+  path: Assets/music/East
+  artifactKey: Guid(d598bcdb1c02e4968bcc0c40614a86ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/East using Guid(d598bcdb1c02e4968bcc0c40614a86ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e9f66f35dab8f4a4b695e989d80359') in 0.001059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.605692 seconds.
+  path: Assets/music/East/New Folder
+  artifactKey: Guid(265ecf42e00114eaab96b648d419ec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/East/New Folder using Guid(265ecf42e00114eaab96b648d419ec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677981c71f9a4db1a9013242c12bd71c') in 0.001456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.150505 seconds.
+  path: Assets/music/East/SMudge Centre
+  artifactKey: Guid(265ecf42e00114eaab96b648d419ec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/East/SMudge Centre using Guid(265ecf42e00114eaab96b648d419ec5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c8b1fb79c1eead218d34c56806d916') in 0.001158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.828706 seconds.
+  path: Assets/music/Voice Over/C1 -Shelly Introduction .mp3
+  artifactKey: Guid(f4f275ba766b44e6d9c02d458d0530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C1 -Shelly Introduction .mp3 using Guid(f4f275ba766b44e6d9c02d458d0530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a7b2b876282aafffe4a2214af7538b') in 0.323993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/music/Voice Over/C16 - The dirt has offered.mp3
+  artifactKey: Guid(394e23ebcb8b0461db867facf179a481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C16 - The dirt has offered.mp3 using Guid(394e23ebcb8b0461db867facf179a481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539e62575a4d530ee542555e96467be5') in 0.008817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/music/Voice Over/C5  - Sweetgrass.mp3
+  artifactKey: Guid(da539944370cb41ad991358ac9b6fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C5  - Sweetgrass.mp3 using Guid(da539944370cb41ad991358ac9b6fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddaa3a516f01be40de6288c9f90ecf2') in 0.006211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/music/Voice Over/C6 - Cedar.mp3
+  artifactKey: Guid(2aec28e47265c46c79343a03a2f7757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C6 - Cedar.mp3 using Guid(2aec28e47265c46c79343a03a2f7757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f75adcdc661e153b271ece760832d4e') in 0.007886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/music/Voice Over/C9 - Share why.mp3
+  artifactKey: Guid(3d137486001ea4b17965034554d2a4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C9 - Share why.mp3 using Guid(3d137486001ea4b17965034554d2a4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f220b859bf3400c874e8ca64ddbfb40') in 0.007122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/music/Voice Over/C10 Are you ready- .mp3
+  artifactKey: Guid(f894b3658b1824e3fb24056e9eadb776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C10 Are you ready- .mp3 using Guid(f894b3658b1824e3fb24056e9eadb776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd1cafc352a2f3b5c7308669c9868f7') in 0.006133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/music/Voice Over/C3  - For each plant.mp3
+  artifactKey: Guid(c8422077848cd43039e583665e2ffad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C3  - For each plant.mp3 using Guid(c8422077848cd43039e583665e2ffad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5bfbea84737be76c82243858c761f4') in 0.007953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/music/Voice Over/C4 - Sage .mp3
+  artifactKey: Guid(85681302dbcaa41468db443b6a2247f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C4 - Sage .mp3 using Guid(85681302dbcaa41468db443b6a2247f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f215e814696e8de80d7d3a97b20de97') in 0.006588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.657746 seconds.
+  path: Assets/music/Voice Over/C18 - Gift the water.mp3
+  artifactKey: Guid(08ffbd8805d2043b7aa8302e5649252f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C18 - Gift the water.mp3 using Guid(08ffbd8805d2043b7aa8302e5649252f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d7f63380c1874180c071dc482ba3e') in 0.014569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/music/Voice Over/C20 - You carry.mp3
+  artifactKey: Guid(abf1b64f05f524601b855116e158c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C20 - You carry.mp3 using Guid(abf1b64f05f524601b855116e158c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02b992d9bf76aeb4f55906679d1233f') in 0.009929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.217499 seconds.
+  path: Assets/music/Voice Over/C23 - Touch the compass.mp3
+  artifactKey: Guid(33ec944fe0d94480db8d8a0d69c8b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C23 - Touch the compass.mp3 using Guid(33ec944fe0d94480db8d8a0d69c8b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad1198310190f296d1afefa5fceb4fd') in 0.006729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/music/Voice Over/C25  - May I See Your Hands! .mp3
+  artifactKey: Guid(7bbce8211179b4cc5883fbcc163bd416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C25  - May I See Your Hands! .mp3 using Guid(7bbce8211179b4cc5883fbcc163bd416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3475ef007df5dae24d436acf7819dea') in 0.006603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/music/Voice Over/C27 - What you may not know.mp3
+  artifactKey: Guid(016875425d63542b284a505ccb2b7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C27 - What you may not know.mp3 using Guid(016875425d63542b284a505ccb2b7a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ce207557ea1d7e618a5df76a423d36') in 0.005854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.344212 seconds.
+  path: Assets/music/Voice Over/C28 -Eagle has left.mp3
+  artifactKey: Guid(25a43c20e31be4f7e8d2a65fa2d57e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C28 -Eagle has left.mp3 using Guid(25a43c20e31be4f7e8d2a65fa2d57e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb91f2c8a886c8669b90a500b45a62c3') in 0.010090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/music/Voice Over/C30 West Sweetgrass Blackfoot.mp3
+  artifactKey: Guid(92289e86162e74d5fa7c3fc34ef88983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C30 West Sweetgrass Blackfoot.mp3 using Guid(92289e86162e74d5fa7c3fc34ef88983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82e9e49ff47a13229e06bca13f2b657') in 0.006864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552828 seconds.
+  path: Assets/music/Voice Over/C33 - Elder teaching.mp3
+  artifactKey: Guid(10100e8a77f584c49b4c7635f041b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/music/Voice Over/C33 - Elder teaching.mp3 using Guid(10100e8a77f584c49b4c7635f041b814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86adffc6d0b45ce5febbafbb50886964') in 0.006343 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
