@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class SceneChange : MonoBehaviour
+public class SceneChangeMove : MonoBehaviour
 {
   public string[] sceneNames; // Array of scene names to load
 
