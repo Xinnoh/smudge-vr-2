@@ -2,25 +2,40 @@ using UnityEngine;
 
 public class WateringScript : MonoBehaviour
 {
-    public ParticleSystem wateringParticles; // Reference to the watering particle system
+    public ParticleSystem wateringParticles;
+    private bool isWatering = false;
+    private Quaternion initialRotation;
 
-    private bool isWatering = false; // Flag to track if watering is currently active
+    private void Start()
+    {
+        initialRotation = transform.rotation;
+        wateringParticles.Stop();
+    }
 
     private void Update()
     {
-        // Check for button B input
-        if (OVRInput.GetDown(OVRInput.Button.Two))
+        // Calculate the angle difference between the initial rotation and current rotation
+        Quaternion currentRotation = transform.rotation;
+        float angleDifference = Quaternion.Angle(initialRotation, currentRotation);
+
+        // Check if the angle difference is greater than 45 degrees
+        if (angleDifference > 45f)
         {
-            Debug.Log("Button B Pressed");
-            // Start watering by enabling the particle system
-            wateringParticles.Play();
-            isWatering = true;
+            // Start watering
+            if (!isWatering)
+            {
+                wateringParticles.Play();
+                isWatering = true;
+            }
         }
-        else if (OVRInput.GetUp(OVRInput.Button.Two))
+        else
         {
-            // Stop watering by disabling the particle system
-            wateringParticles.Stop();
-            isWatering = false;
+            // Stop watering
+            if (isWatering)
+            {
+                wateringParticles.Stop();
+                isWatering = false;
+            }
         }
     }
 }
