@@ -21,21 +21,21 @@ public class SceneChangeMove : MonoBehaviour
     if(started){
       StartCoroutine(Fade());
 
-                  if (currentSceneIndex < sceneNames.Length - 1)
-                  {
-                      SceneManager.LoadScene(sceneNames[currentSceneIndex]);
-                      currentSceneIndex++;
-                  }
-                  else if (currentSceneIndex == sceneNames.Length - 1)
-                  {
-                      SceneManager.LoadScene(sceneNames[currentSceneIndex]);
-                  }
-                  else
-                  {
-                      Debug.Log("All scenes have been loaded.");
-                      // Optionally, reset the currentSceneIndex to 0 if you want to loop back to the first scene
-                  }
+      if (currentSceneIndex < sceneNames.Length - 1)
+      {
+        SceneManager.LoadScene(sceneNames[currentSceneIndex]);
 
+        currentSceneIndex++;
+      }
+      else if (currentSceneIndex == sceneNames.Length - 1)
+      {
+        SceneManager.LoadScene(sceneNames[currentSceneIndex]);
+      }
+      else
+      {
+        Debug.Log("All scenes have been loaded.");
+        // Optionally, reset the currentSceneIndex to 0 if you want to loop back to the first scene
+      }
     }
 
   }

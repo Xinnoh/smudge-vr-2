@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Pouchget : MonoBehaviour
 {
+  public GameObject smudge;
     // Start is called before the first frame update
-    void Start()
+    void onCollisionEnter(Collider other)
     {
-        
+      if (other.CompareTag("Pouch"))
+      {
+          smudge.SetActive(true);
+      }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
