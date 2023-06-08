@@ -53,6 +53,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\NativeVideoPlayer.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
      <Compile Include="Assets\Sardine\Scripts\SardineCameraScript.cs" />
+     <Compile Include="Assets\Scripts\FishInteraction.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiAxis1dInspector.cs" />
      <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\AssemblyInfo.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportDestination.cs" />
@@ -69,6 +70,7 @@
      <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorSession.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\SpatialAnchorSession.cs" />
+     <Compile Include="Assets\Scripts\WateringPlant.cs" />
      <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\AnimalSFX.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\DebugUIBuilder.cs" />
@@ -194,6 +196,7 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\TrainButtonVisualController.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\SimpleCapsuleWithStickMovement.cs" />
      <Compile Include="Assets\Environment\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\Scripts\ParticleCollisionDetector.cs" />
      <Compile Include="Assets\Sardine\Scripts\IwasiOcean.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DebugUI\Scripts\HandedInputSelector.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\DistanceGrabbable.cs" />
@@ -278,7 +281,6 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\RequestCaptureFlow.cs" />
      <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\PlayerDemoSceneUIController.cs" />
      <Compile Include="Assets\Scripts\FishEagleInteraction.cs" />
-     <Compile Include="Assets\Scripts\SceneChange1.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\Anchor.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SceneManager\Scripts\SimpleResizer\SimpleResizer.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\InteractableToolView.cs" />
@@ -312,7 +314,8 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorUIManager.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\Environment\DynamicStarrySky\Scripts\StarPoint.cs" />
-     <Compile Include="Assets\Scripts\FishInteraction.cs" />
+     <Compile Include="Assets\Scripts\NextScene.cs" />
+     <Compile Include="Assets\Scripts\ReturnToPreviousScene.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Models\ANIMALS FULL PACK\Bear_Female\fbx\RM_animations" />
      <Folder Include="Assets\Models\vegetables\Ambient-Occlusion" />
