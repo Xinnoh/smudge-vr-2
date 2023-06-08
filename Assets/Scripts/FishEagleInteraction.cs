@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FishEagleInteraction : MonoBehaviour
@@ -7,23 +6,38 @@ public class FishEagleInteraction : MonoBehaviour
     public Animator eagleAnimator;
     public GameObject presentPrefab;
     public Transform presentSpawnPoint;
-    public AudioSource audioSource;
-    public AudioClip happySound;
 
-    private bool fishGiven = false;
+    private bool isFishGiven = false;
+    private GameObject presentObject;
+
+    private IEnumerator WaitForAnimation()
+    {
+        // Wait for the animation clip to complete
+        yield return new WaitForSeconds(eagleAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+
+        // Show the present object
+        presentObject.SetActive(true);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Fish") && !fishGiven)
+        if (other.CompareTag("Fish") && !isFishGiven)
         {
-            fishGiven = true;
-            eagleAnimator.SetTrigger("Happy");
-            Instantiate(presentPrefab, presentSpawnPoint.position, presentSpawnPoint.rotation);
+            isFishGiven = true;
 
-            if (audioSource != null && happySound != null)
-            {
-                audioSource.PlayOneShot(happySound);
-            }
+            // Trigger the animation state for the eagle to change its animation
+            eagleAnimator.SetTrigger("ChangeAnimation");
+
+            // Destroy the fish object
+            Destroy(other.gameObject);
+
+            // Instantiate the present prefab at the present spawn point
+            presentObject = Instantiate(presentPrefab, presentSpawnPoint.position, presentSpawnPoint.rotation);
+            // Hide the present object initially
+            presentObject.SetActive(false);
+
+            // Start a coroutine to wait for the animation clip to complete
+            StartCoroutine(WaitForAnimation());
         }
     }
 }

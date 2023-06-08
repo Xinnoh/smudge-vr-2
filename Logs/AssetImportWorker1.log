@@ -15,7 +15,7 @@ D:/GitHub/smudge-vr-2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63012
+50803
 Successfully changed project path to: D:/GitHub/smudge-vr-2
 D:/GitHub/smudge-vr-2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ D:/GitHub/smudge-vr-2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 150.79 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.36 ms.
+Refreshing native plugins compatible for Editor in 156.88 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/GitHub/smudge-vr-2/Assets
@@ -64,57 +64,58 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002262 seconds.
+Registered in 0.002364 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 146.66 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 131.32 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.623 seconds
+- Completed reload, in  0.580 seconds
 Domain Reload Profiling:
-	ReloadAssembly (623ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (486ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (438ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
-				TypeCache.Initialize (94ms)
-					TypeCache.ScanAssembly (92ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (85ms)
+				TypeCache.Initialize (84ms)
+					TypeCache.ScanAssembly (83ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (323ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (45ms)
+				InitializePlatformSupportModulesInManaged (40ms)
 				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (147ms)
+				RefreshPlugins (132ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007928 seconds.
+Registered in 0.008986 seconds.
+Android Extension - Scanning For ADB Devices 630 ms
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 157.91 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 131.53 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -144,47 +145,133 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.754 seconds
+- Completed reload, in  1.483 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1755ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (1472ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1314ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
-				TypeCache.Initialize (336ms)
-					TypeCache.ScanAssembly (329ms)
-				ResolveRequiredComponents (18ms)
+			SetupTypeCache (283ms)
+				TypeCache.Initialize (267ms)
+					TypeCache.ScanAssembly (261ms)
+				ResolveRequiredComponents (16ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (785ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (708ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (158ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (391ms)
-				ProcessInitializeOnLoadMethodAttributes (106ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (372ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.33 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 7677 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 103 unused Assets / (2.8 MB). Loaded Objects now: 8129.
+Refreshing native plugins compatible for Editor in 1.81 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 7678 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (2.8 MB). Loaded Objects now: 8134.
 Memory consumption went from 1.21 GB to 1.21 GB.
-Total: 4.260500 ms (FindLiveObjects: 0.564500 ms CreateObjectMapping: 0.290200 ms MarkObjects: 2.918100 ms  DeleteObjects: 0.486200 ms)
+Total: 5.360400 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.376700 ms MarkObjects: 3.651400 ms  DeleteObjects: 0.705300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007428 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.587 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1588ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1358ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+				TypeCache.Initialize (323ms)
+					TypeCache.ScanAssembly (316ms)
+				ResolveRequiredComponents (16ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (692ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (105ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.61 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 7442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (2.8 MB). Loaded Objects now: 8139.
+Memory consumption went from 1.17 GB to 1.17 GB.
+Total: 5.133600 ms (FindLiveObjects: 0.487700 ms CreateObjectMapping: 0.434000 ms MarkObjects: 3.564000 ms  DeleteObjects: 0.647300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -199,64 +286,418 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89133.767332 seconds.
-  path: Assets/Materials/Box top.mat
-  artifactKey: Guid(36d157c3d2ee34972a134d68bc337e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Box top.mat using Guid(36d157c3d2ee34972a134d68bc337e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0cb6501ed9d5f96ca291da8e1c93d8') in 0.145725 seconds 
+  Time since last request: 111620.212542 seconds.
+  path: Assets/Scripts/NewBehaviourScript.cs
+  artifactKey: Guid(b4ae9b721f4a41a4e890c82a198e1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(b4ae9b721f4a41a4e890c82a198e1726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f88075e42f8f8240e725a354de61352') in 0.020590 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013882 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  2.109 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2110ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (1785ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+				TypeCache.Initialize (409ms)
+					TypeCache.ScanAssembly (397ms)
+				ResolveRequiredComponents (28ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (904ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (14ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 17.19 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 7441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.8 MB). Loaded Objects now: 8144.
+Memory consumption went from 1.17 GB to 1.17 GB.
+Total: 73.669700 ms (FindLiveObjects: 3.657300 ms CreateObjectMapping: 2.393000 ms MarkObjects: 65.042600 ms  DeleteObjects: 2.572400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1579ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1349ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (401ms)
+				TypeCache.Initialize (382ms)
+					TypeCache.ScanAssembly (375ms)
+				ResolveRequiredComponents (18ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 13.81 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
+Unloading 7442 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.8 MB). Loaded Objects now: 8149.
+Memory consumption went from 1.17 GB to 1.17 GB.
+Total: 10.028800 ms (FindLiveObjects: 0.603400 ms CreateObjectMapping: 2.086900 ms MarkObjects: 5.835100 ms  DeleteObjects: 1.500100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Materials/Plywood.mat
-  artifactKey: Guid(3aceec679ecf80a4ab843a890f2ea4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Plywood.mat using Guid(3aceec679ecf80a4ab843a890f2ea4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c082c91347130c581017654f4ba98899') in 0.076365 seconds 
+  Time since last request: 479.777719 seconds.
+  path: Assets/Environment/UniStorm Weather System/Sounds/Ambience/Ambience.mp3
+  artifactKey: Guid(110bd7caf90f6c448bebc928e9d60e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Sounds/Ambience/Ambience.mp3 using Guid(110bd7caf90f6c448bebc928e9d60e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292bea80730cc9417088fc358cc8a682') in 0.114044 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Materials/woven.mat
-  artifactKey: Guid(130ae8ade38b65a4a887f46a3760a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/woven.mat using Guid(130ae8ade38b65a4a887f46a3760a1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ae5e94e90a478d065e7dd142abec77') in 0.013530 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Bear/Bear Grunt 1.mp3
+  artifactKey: Guid(e53ee35a928dd4eda97dcf2667298c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Bear/Bear Grunt 1.mp3 using Guid(e53ee35a928dd4eda97dcf2667298c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f44e8de6b0e2a22ca90b600271484a') in 0.009054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Bear/Bear Growl 1.mp3
+  artifactKey: Guid(cf9142a760878439eafef4d06c958a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Bear/Bear Growl 1.mp3 using Guid(cf9142a760878439eafef4d06c958a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502fdef9f1b6e09f1e2f6f09e4facbeb') in 0.009728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sardine/Audio/basi.wav
+  artifactKey: Guid(46a60c95802e14ce0998f2f4da6f4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sardine/Audio/basi.wav using Guid(46a60c95802e14ce0998f2f4da6f4f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549b5de8d0f012d019b6b99d2c6a3f16') in 0.010738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.979554 seconds.
+  path: Assets/Environment/Water_FX_Collection/Water_Splashes/Audio/Big_Splash_Audio.mp3
+  artifactKey: Guid(c6a493541cda383439578fc2dfafc6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Water_FX_Collection/Water_Splashes/Audio/Big_Splash_Audio.mp3 using Guid(c6a493541cda383439578fc2dfafc6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a861b4ba24498062372f8126836be7fd') in 0.008640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040851 seconds.
+  path: Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds 2.wav
+  artifactKey: Guid(65d9aa7c01480944396f7b2093901573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds 2.wav using Guid(65d9aa7c01480944396f7b2093901573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86876cda837fef11ad42f07b0a102522') in 0.009879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.225024 seconds.
+  path: Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds 4.wav
+  artifactKey: Guid(29a2d3e60092cd44aaa8a7d35cbd32d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds 4.wav using Guid(29a2d3e60092cd44aaa8a7d35cbd32d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130df27777a1fd0aab2234905759dbf7') in 0.009007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019697 seconds.
+  path: Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds Loop.wav
+  artifactKey: Guid(439447d514f88b244a82cce5d7467db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Sounds/Birds/Birds Loop.wav using Guid(439447d514f88b244a82cce5d7467db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971b97cbf8a144792c5f23c55070221d') in 0.013149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Boar/Boar Snort 2.mp3
+  artifactKey: Guid(53cf96be040864f5bab20cbd2a0700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Boar/Boar Snort 2.mp3 using Guid(53cf96be040864f5bab20cbd2a0700e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892515eb13a65bc7643911248fc84783') in 0.010333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Boar/Boar Squeal 1.mp3
+  artifactKey: Guid(230838c1704494e488e7095def13d51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Forest Animals/Boar/Boar Squeal 1.mp3 using Guid(230838c1704494e488e7095def13d51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91d095c9691e11333aa5de7fe6dcdd9') in 0.017450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bounce.wav
+  artifactKey: Guid(229f46af248b4c74facf863a061f856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Audio/bounce.wav using Guid(229f46af248b4c74facf863a061f856b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c161b7289d541ff8d12ec9a5b4c5e0') in 0.017943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.123914 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonDown.wav
+  artifactKey: Guid(98e759dfda69aa7468d95f5a2c88e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonDown.wav using Guid(98e759dfda69aa7468d95f5a2c88e366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47a68379adf67e4d20fc1f47c845154') in 0.008138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonUp.wav
+  artifactKey: Guid(523f822c1c7b699489c49fea2353c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Audio/ButtonUp.wav using Guid(523f822c1c7b699489c49fea2353c2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db17abc330faea20edff8ee746399ff') in 0.015188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023886 seconds.
+  path: Assets/Sound Design/Voice Over/C1 -Shelly Introduction .mp3
+  artifactKey: Guid(f4f275ba766b44e6d9c02d458d0530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C1 -Shelly Introduction .mp3 using Guid(f4f275ba766b44e6d9c02d458d0530cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7669f7754c88066ae770226517814ca') in 0.007893 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Materials/Match stricking surface.mat
-  artifactKey: Guid(bf92226b2ce274d21b06c0893893fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Match stricking surface.mat using Guid(bf92226b2ce274d21b06c0893893fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db3361a650ca4088bfa33ac3b08010') in 0.016932 seconds 
+  path: Assets/Sound Design/Voice Over/C8 - Offer a gift.mp3
+  artifactKey: Guid(08229aa59bc594707bd43a0a4cb76d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C8 - Offer a gift.mp3 using Guid(08229aa59bc594707bd43a0a4cb76d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5d32424d22cf809a82889eb755502e') in 0.016298 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Materials/Sweetgrass.mat
-  artifactKey: Guid(26ea26f2da76f411ea58a3b3e346063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Sweetgrass.mat using Guid(26ea26f2da76f411ea58a3b3e346063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc1b80d3ef964ef317c86ad1127dd03') in 0.023436 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sound Design/Voice Over/C5  - Sweetgrass.mp3
+  artifactKey: Guid(da539944370cb41ad991358ac9b6fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C5  - Sweetgrass.mp3 using Guid(da539944370cb41ad991358ac9b6fc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9eb4bbd12f4221d5323debd0e9924e') in 0.028495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Sound Design/Voice Over/C2 - Welcome.mp3
+  artifactKey: Guid(bef5a156477f3476c86b6766be472342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C2 - Welcome.mp3 using Guid(bef5a156477f3476c86b6766be472342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c3770e1ecb78eae5257a72fe3e4547') in 0.015240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.101148 seconds.
+  path: Assets/Sound Design/Voice Over/C17 - The HH.mp3
+  artifactKey: Guid(df1f445125dd14978bea92eb632f0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C17 - The HH.mp3 using Guid(df1f445125dd14978bea92eb632f0b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e997538a87a3b53929fcf3ffb26e455') in 0.015120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sound Design/Voice Over/C25  - May I See Your Hands! .mp3
+  artifactKey: Guid(7bbce8211179b4cc5883fbcc163bd416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C25  - May I See Your Hands! .mp3 using Guid(7bbce8211179b4cc5883fbcc163bd416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7d7da704cb8a3e34aa30423b57229e') in 0.008936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sound Design/Voice Over/C24- Welcome Back.mp3
+  artifactKey: Guid(bc6f73f054ca54147acdb0660ece5d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C24- Welcome Back.mp3 using Guid(bc6f73f054ca54147acdb0660ece5d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b822cc7a1b210fd11c80a08c67814cff') in 0.011693 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000027 seconds.
-  path: Assets/Materials/Matchstick.mat
-  artifactKey: Guid(45d56b803bd1c4c1f983b8991a2ef740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Matchstick.mat using Guid(45d56b803bd1c4c1f983b8991a2ef740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa896bb831b0a349da82a585c94baafb') in 0.010779 seconds 
+  path: Assets/Sound Design/Voice Over/C22-Eagle will carry.mp3
+  artifactKey: Guid(eed791cb80f044ad1a3289daeacca157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C22-Eagle will carry.mp3 using Guid(eed791cb80f044ad1a3289daeacca157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a3d7e48642fb1e0074e724ed96aa34') in 0.009924 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Materials/Cardboard.mat
-  artifactKey: Guid(f83f9145522364ac8851ebb7133c78a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Cardboard.mat using Guid(f83f9145522364ac8851ebb7133c78a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1aca131ff9d69c1abb122e2aef7278') in 0.012605 seconds 
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sound Design/Voice Over/C23 - Touch the compass.mp3
+  artifactKey: Guid(33ec944fe0d94480db8d8a0d69c8b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Voice Over/C23 - Touch the compass.mp3 using Guid(33ec944fe0d94480db8d8a0d69c8b233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7600f94224599f372e4f1f5e565d0d4') in 0.008995 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Materials/Wicker.mat
-  artifactKey: Guid(082e3043888ee43bb8366fac01093b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Wicker.mat using Guid(082e3043888ee43bb8366fac01093b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14c11b5ded57faf3be53b13c097a44e') in 0.011415 seconds 
+  Time since last request: 0.344093 seconds.
+  path: Assets/Sound Design/East/eagle_hawk screech.CMM.mp3
+  artifactKey: Guid(8b8f8af310e64450f8fb9a6230284d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/East/eagle_hawk screech.CMM.mp3 using Guid(8b8f8af310e64450f8fb9a6230284d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56ec77da14edde5e0839366d225a306') in 0.009804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Materials/Feather.mat
-  artifactKey: Guid(1f2bd7cb175ce4d458461e1caa1c67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Feather.mat using Guid(1f2bd7cb175ce4d458461e1caa1c67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3566e44305e3a9cc0458dd212d3146d') in 0.014507 seconds 
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Birds/Seagull/Seagull Squawk 2.mp3
+  artifactKey: Guid(d01e13fc065ae4201b3796f1bbb836ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Birds/Seagull/Seagull Squawk 2.mp3 using Guid(d01e13fc065ae4201b3796f1bbb836ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ea0148ba79e8e6b282aa82de573bbf') in 0.009691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Materials/Outer Shell.mat
-  artifactKey: Guid(8e5b897662e92432486068bbf248e722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Outer Shell.mat using Guid(8e5b897662e92432486068bbf248e722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dadf0b822145d475f93b6428183763') in 0.026246 seconds 
+  Time since last request: 0.716398 seconds.
+  path: Assets/Animals Full Pack Sound FX/SFX/Birds/Golden Eagle/Eagle Scream 2.mp3
+  artifactKey: Guid(6c6cf61302b77477484eab9ca0331872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals Full Pack Sound FX/SFX/Birds/Golden Eagle/Eagle Scream 2.mp3 using Guid(6c6cf61302b77477484eab9ca0331872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c186064fb2252f412c13b5a6aaea9df') in 0.008751 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010024 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 3.57 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1824ms)
+		BeginReloadAssembly (178ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1559ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+				TypeCache.Initialize (406ms)
+					TypeCache.ScanAssembly (391ms)
+				ResolveRequiredComponents (23ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (464ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.03 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 7441 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (2.8 MB). Loaded Objects now: 8164.
+Memory consumption went from 1.18 GB to 1.17 GB.
+Total: 6.152100 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.293400 ms MarkObjects: 4.844900 ms  DeleteObjects: 0.595200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
