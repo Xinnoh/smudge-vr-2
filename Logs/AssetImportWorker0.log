@@ -1,23 +1,30 @@
+Unity Editor version:    2022.1.22f1 (6b6e9fc2adda)
+Branch:                  2022.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (Build 22E261)
+Darwin version:          22.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
 Using pre-set license
-Built from '2022.1/staging' branch; Version is '2022.1.22f1 (6b6e9fc2adda) revision 7040671'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 16122 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\Hub\Editor\2022.1.22f1\Editor\Unity.exe
+/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/GitHub/smudge-vr-2
+/Users/vivian/Documents/GitHub/smudge-vr-2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63012
-Successfully changed project path to: D:/GitHub/smudge-vr-2
-D:/GitHub/smudge-vr-2
+61666
+Successfully changed project path to: /Users/vivian/Documents/GitHub/smudge-vr-2
+/Users/vivian/Documents/GitHub/smudge-vr-2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,74 +54,274 @@ D:/GitHub/smudge-vr-2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 151.65 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.35 ms.
+Refreshing native plugins compatible for Editor in 195.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 4.96 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
-[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/smudge-vr-2/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/vivian/Documents/GitHub/smudge-vr-2/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6023 MB
-    Driver:   31.0.15.1720
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56034
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002193 seconds.
-Native extension for WindowsStandalone target not found
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000589 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 143.50 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 166.12 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.47 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.616 seconds
+- Completed reload, in  0.660 seconds
 Domain Reload Profiling:
-	ReloadAssembly (616ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (484ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (60ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (94ms)
-				TypeCache.Initialize (94ms)
-					TypeCache.ScanAssembly (92ms)
+			SetupTypeCache (97ms)
+				TypeCache.Initialize (97ms)
+					TypeCache.ScanAssembly (96ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (321ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (360ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (144ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				InitializePlatformSupportModulesInManaged (90ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007679 seconds.
+Registered in 0.006603 seconds.
+Unable to list connected devices. 
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+stderr[
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+]
+stdout[
+
+]
+exit code: 134
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0013b] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Unable to list connected devices. 
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+stderr[
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+]
+stdout[
+
+]
+exit code: 134
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0013b] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Unable to list connected devices. 
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+stderr[
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+]
+stdout[
+
+]
+exit code: 134
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0013b] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Unable to list connected devices. 
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+stderr[
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+]
+stdout[
+
+]
+exit code: 134
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0013b] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+Unable to list connected devices. 
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+
+UnityEditor.Android.CommandInvokationFailure: Unable to list connected devices. 
+/Applications/Unity/Hub/Editor/2022.1.22f1/PlaybackEngines/AndroidPlayer/SDK/platform-tools/adb devices
+
+stderr[
+rosetta error: Attachment of code signature supplement failed: 1 
+ /var/db/oah/7dd20abbc0f4eef66176976a1757c1346ebae690e6ef43fd40842e686bf971f7/54c51c97e8818f3f78558928e826bdd528f19b584c586bfb43403663eef5bdd7/adb.aot
+]
+stdout[
+
+]
+exit code: 134
+  at UnityEditor.Android.Command.WaitForProgramToRun (UnityEditor.Utils.Program p, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00033] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.Diagnostics.ProcessStartInfo psi, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0002d] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.Command.Run (System.String command, System.String args, System.String workingdir, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000a] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.RunInternal (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0001e] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x00013] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x0013b] in <6162151c9ea2435da0e0af8ed61b48cb>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass8_0:<Scan>b__0 ()
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
+Symbol file LoadedFromMemory doesn't match image /Users/vivian/Documents/GitHub/smudge-vr-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/vivian/Documents/GitHub/smudge-vr-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 159.67 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 170.74 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -122,21 +329,6 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -144,114 +336,161 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.735 seconds
+- Completed reload, in  1.547 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1735ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1460ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1291ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (351ms)
-				TypeCache.Initialize (333ms)
-					TypeCache.ScanAssembly (327ms)
+			SetupTypeCache (315ms)
+				TypeCache.Initialize (297ms)
+					TypeCache.ScanAssembly (294ms)
 				ResolveRequiredComponents (18ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (767ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (721ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (160ms)
+				RefreshPlugins (171ms)
 				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (105ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 7676 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 103 unused Assets / (2.8 MB). Loaded Objects now: 8128.
-Memory consumption went from 1.21 GB to 1.21 GB.
-Total: 6.504900 ms (FindLiveObjects: 1.121500 ms CreateObjectMapping: 0.375900 ms MarkObjects: 4.214700 ms  DeleteObjects: 0.790600 ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Unloading 7825 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (4.8 MB). Loaded Objects now: 8261.
+Memory consumption went from 1.19 GB to 1.19 GB.
+Total: 3.965084 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.105208 ms MarkObjects: 2.974042 ms  DeleteObjects: 0.594750 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 88608.981484 seconds.
-  path: Assets/Sardine/Animator/SardineAnimatorController.controller
-  artifactKey: Guid(2773e77827fe54653aab7dc5006e0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sardine/Animator/SardineAnimatorController.controller using Guid(2773e77827fe54653aab7dc5006e0b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66243b2c4cf066ff9cfb68b17d58b04') in 0.034222 seconds 
+  Time since last request: 3167249.038238 seconds.
+  path: Assets/EffectExamples/RedSmoke.prefab
+  artifactKey: Guid(780e8981ab245604ebd925b2551afc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/RedSmoke.prefab using Guid(780e8981ab245604ebd925b2551afc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f3704e601fe35ceb2e4fef0aa0468f') in 0.172448 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 524.737926 seconds.
-  path: Assets/Materials/Bark.mat
-  artifactKey: Guid(516f46d37d9374f45b1a126422c599cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Bark.mat using Guid(516f46d37d9374f45b1a126422c599cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e23db1bc844363cc5eda6dc43a76194') in 0.135777 seconds 
+  Time since last request: 10.506264 seconds.
+  path: Assets/Particles
+  artifactKey: Guid(6d047d9d10d444ec9a2b327ed85dc417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particles using Guid(6d047d9d10d444ec9a2b327ed85dc417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a90e02c02993416efc985e66b26a35') in 0.000668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Materials/Sweetgrass_Texture.mat
-  artifactKey: Guid(873c358339ed07a4fa8032c08a7f3349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Sweetgrass_Texture.mat using Guid(873c358339ed07a4fa8032c08a7f3349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148cf7769c21b2ea2f92e9c5b16e78fb') in 0.047669 seconds 
+  Time since last request: 0.480319 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(0db7b39837f27dd4a8e191673fc0ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(0db7b39837f27dd4a8e191673fc0ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1463475e1c0fb42b767d598d017019') in 0.000588 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Materials/IMG_3205.mat
-  artifactKey: Guid(4d29d7faa20760e4b8fc89ee47dc28fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/IMG_3205.mat using Guid(4d29d7faa20760e4b8fc89ee47dc28fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ad17d8a318eb7c43b98b116088cb9b') in 0.029349 seconds 
+  Time since last request: 6.693271 seconds.
+  path: Assets/Sound Design/Smudge Centre/Return to the Smudge from the East.wav
+  artifactKey: Guid(fbb393fee3b4f4674add8b6dd6718452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound Design/Smudge Centre/Return to the Smudge from the East.wav using Guid(fbb393fee3b4f4674add8b6dd6718452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a9db01f60905bb22e4895c173d8dee') in 0.186421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.785244 seconds.
+  path: Assets/Environment/Water_FX_Collection/Fire_Hose/Textures/drain_pipe_c.png
+  artifactKey: Guid(45de1ae498fa2a2408d08c3fc14e38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Water_FX_Collection/Fire_Hose/Textures/drain_pipe_c.png using Guid(45de1ae498fa2a2408d08c3fc14e38fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d5b535348392f968b0af21ff32d242') in 0.162981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Terrains/_TerrainAutoUpgrade/layer_LeavesTileBRHE_Terrain_AlbedoLeavesTileBRHE_Normalb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(469a912708852df4bafc009154b7f32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/_TerrainAutoUpgrade/layer_LeavesTileBRHE_Terrain_AlbedoLeavesTileBRHE_Normalb3407d0e55802f81.terrainlayer using Guid(469a912708852df4bafc009154b7f32b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cad69aec2b6c00ab061167321b9cd0b') in 0.122025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx
+  artifactKey: Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Meshes/OculusTouchForQuest2/OculusTouchForQuest2_Right.fbx using Guid(25b5eb0761edb6346b0b3444af76b55e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f379dcad29b61f4d01803a0ded8efdd') in 0.348761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Terrain.mat
+  artifactKey: Guid(2245a35b69b0fbe4196efe99da6082bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/HD Terrain.mat using Guid(2245a35b69b0fbe4196efe99da6082bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060d7e80dd8ee7975817dbf9f6329878') in 0.042038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Terrains/_TerrainAutoUpgrade/layer_BeechLeavesTileRHE_Terrain_AlbedoBeechLeavesTileRHE_Normalcd2d2d038030d602.terrainlayer
+  artifactKey: Guid(5ae4ec6b16a80914aa686dc6fcb016eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/_TerrainAutoUpgrade/layer_BeechLeavesTileRHE_Terrain_AlbedoBeechLeavesTileRHE_Normalcd2d2d038030d602.terrainlayer using Guid(5ae4ec6b16a80914aa686dc6fcb016eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b15080699cdf7b66ce28f978998314') in 0.003567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/UniStorm Weather System/Materials/Weather/Rain.mat
+  artifactKey: Guid(2278b2f82f230134f8516597e93d3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Materials/Weather/Rain.mat using Guid(2278b2f82f230134f8516597e93d3c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dadbc9e11fe5378995253b746729e0c5') in 3.377147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Environment/UniStorm Weather System/Demo Source/Terrain/UniStorm Terrain Data.asset
+  artifactKey: Guid(65721883c113826438b9265f01b7a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Demo Source/Terrain/UniStorm Terrain Data.asset using Guid(65721883c113826438b9265f01b7a2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4909d7bb399effeda91158a6753274c9') in 0.051183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Environment/UniStorm Weather System/Textures/Weather/Particles/Rain Splash.tif
+  artifactKey: Guid(ba32aed87cf41b143b3ec53f58da39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Textures/Weather/Particles/Rain Splash.tif using Guid(ba32aed87cf41b143b3ec53f58da39ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdf4f173b7210ff6a9077d3b887becd') in 0.054487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Environment/UniStorm Weather System/Textures/Weather/Particles/Rain.png
+  artifactKey: Guid(a3460bb7e1af3d744a683e094f30bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/UniStorm Weather System/Textures/Weather/Particles/Rain.png using Guid(a3460bb7e1af3d744a683e094f30bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e005e5019347ab9d145a5b64790d6bd') in 0.006575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Environment/Water_FX_Collection/Camera_Lens_Rain/FBX/Materials/Rain_Dripping_mtl.mat
+  artifactKey: Guid(94b477a2b39ebbd4f87f2bcc0c53e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Water_FX_Collection/Camera_Lens_Rain/FBX/Materials/Rain_Dripping_mtl.mat using Guid(94b477a2b39ebbd4f87f2bcc0c53e300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba58f532fbc74245ac3b569ea162011f') in 0.013367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Terrain.mat
+  artifactKey: Guid(d6532a2578c89a148b94c3acd647ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Design Cafe/Nature Renderer Demo/Realistic/Settings/Standard Terrain.mat using Guid(d6532a2578c89a148b94c3acd647ad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd159267d247c0e12776294d2112388b5') in 0.427445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Terrains/_TerrainAutoUpgrade/layer_DirtTileRHE_Terrain_AlbedoDirtTileRHE_Normal793646612c42751.terrainlayer
+  artifactKey: Guid(fc8e3abd37b807848af29a9678416cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/_TerrainAutoUpgrade/layer_DirtTileRHE_Terrain_AlbedoDirtTileRHE_Normal793646612c42751.terrainlayer using Guid(fc8e3abd37b807848af29a9678416cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a476b931790580d90147cba7eae12cd') in 0.003214 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000044 seconds.
-  path: Assets/Materials/compass face.mat
-  artifactKey: Guid(9b96f7b41a275de499af0f328b56c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/compass face.mat using Guid(9b96f7b41a275de499af0f328b56c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e33e71aaaf3978c562152c96253972') in 0.014075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Materials/Carpet.mat
-  artifactKey: Guid(9035770b7bdce4fbbb0a10cf2fcc99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Carpet.mat using Guid(9035770b7bdce4fbbb0a10cf2fcc99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba0dc25f41dfaf1079bac4dc72a44d8') in 0.012448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Materials/Redbird.mat
-  artifactKey: Guid(32416fb5752657d488a1de8a0308ccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Redbird.mat using Guid(32416fb5752657d488a1de8a0308ccb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9172507c7d27cb2bb6321594ed7445b4') in 0.016971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Materials/Match.mat
-  artifactKey: Guid(1b1087ed4b7f5403c9d8e2001e5c7da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Match.mat using Guid(1b1087ed4b7f5403c9d8e2001e5c7da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d79d0687b8dd45f672321195ff5cd09') in 0.011176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Materials/Inner Shell.mat
-  artifactKey: Guid(d644c5ddf63d244889e2201d7f1d27de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Inner Shell.mat using Guid(d644c5ddf63d244889e2201d7f1d27de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca619879bb65072f65d9dd1d8322c14e') in 0.163278 seconds 
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Prefabs/SimpleTrainTrack.prefab
+  artifactKey: Guid(f33f22767ed8d5f448588d4456526b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Prefabs/SimpleTrainTrack.prefab using Guid(f33f22767ed8d5f448588d4456526b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccc131ea49b7039f06cd7bcfe14125e') in 0.193348 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
