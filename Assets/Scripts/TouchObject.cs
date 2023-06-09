@@ -47,6 +47,11 @@ public class TouchObject : MonoBehaviour
             StartSequence();
         }
 
+        if (other.gameObject.tag == "Hand")
+        {
+            StartSequence();
+        }
+
     }
 
 
