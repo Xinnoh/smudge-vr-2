@@ -8,16 +8,34 @@ Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        32768 MB
 Using pre-set license
+<<<<<<< HEAD
+Built from '2022.1/staging' branch; Version is '2022.1.22f1 (6b6e9fc2adda) revision 7040671'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit ProfessionalWorkstation' Language: 'zh' Physical Memory: 16122 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2022.1.22f1\Editor\Unity.exe
+=======
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
+D:/GitHub/smudge-vr-2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59324
+Successfully changed project path to: D:/GitHub/smudge-vr-2
+D:/GitHub/smudge-vr-2
+=======
 /Users/vivian/Documents/GitHub/smudge-vr-2
 -logFile
 Logs/AssetImportWorker1.log
@@ -25,6 +43,7 @@ Logs/AssetImportWorker1.log
 54160
 Successfully changed project path to: /Users/vivian/Documents/GitHub/smudge-vr-2
 /Users/vivian/Documents/GitHub/smudge-vr-2
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,6 +73,40 @@ Successfully changed project path to: /Users/vivian/Documents/GitHub/smudge-vr-2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 209.71 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.77 ms.
+Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/smudge-vr-2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1720
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.1.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002204 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 203.71 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.741 seconds
+Domain Reload Profiling:
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (61ms)
+=======
 Refreshing native plugins compatible for Editor in 153.90 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 4.68 ms.
 Initialize engine version: 2022.1.22f1 (6b6e9fc2adda)
@@ -90,10 +143,31 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (627ms)
 		BeginReloadAssembly (56ms)
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+				TypeCache.Initialize (112ms)
+					TypeCache.ScanAssembly (111ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+=======
 			CreateAndSetChildDomain (0ms)
 		EndReloadAssembly (491ms)
 			LoadAssemblies (57ms)
@@ -112,12 +186,23 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (67ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+Registered in 0.007974 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 151.22 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+=======
 Registered in 0.011470 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/vivian/Documents/GitHub/smudge-vr-2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
@@ -127,6 +212,7 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 144.65 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.42 ms.
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -134,6 +220,24 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\GitHub\smudge-vr-2\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3dd5df5ef4974f29afeb2d3ba227c5da>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <70229d9c56924d7794599e8f1526153f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+=======
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -141,6 +245,38 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
+- Completed reload, in  1.990 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1991ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (161ms)
+		EndReloadAssembly (1598ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+				TypeCache.Initialize (299ms)
+					TypeCache.ScanAssembly (293ms)
+				ResolveRequiredComponents (17ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (823ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (151ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+=======
 - Completed reload, in  1.515 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1515ms)
@@ -171,10 +307,20 @@ Domain Reload Profiling:
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+<<<<<<< HEAD
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 7831 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (4.1 MB). Loaded Objects now: 8249.
+Memory consumption went from 1.23 GB to 1.22 GB.
+Total: 5.797400 ms (FindLiveObjects: 0.606400 ms CreateObjectMapping: 0.644100 ms MarkObjects: 3.757300 ms  DeleteObjects: 0.787200 ms)
+=======
 Launching external process: /Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
 Refreshing native plugins compatible for Editor in 1.18 ms, found 5 plugins.
@@ -183,19 +329,258 @@ Unloading 7683 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 108 unused Assets / (3.2 MB). Loaded Objects now: 8111.
 Memory consumption went from 1.15 GB to 1.15 GB.
 Total: 3.999291 ms (FindLiveObjects: 0.273792 ms CreateObjectMapping: 0.102458 ms MarkObjects: 3.018750 ms  DeleteObjects: 0.603833 ms)
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+<<<<<<< HEAD
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+=======
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 79222.131693 seconds.
+  path: Assets/Materials/Leaf.mat
+  artifactKey: Guid(2984d87737656483faad632cb8cf41dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Leaf.mat using Guid(2984d87737656483faad632cb8cf41dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c75cdad602198d43d3847e0b4ae35ce') in 0.293895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Watering_can.mat
+  artifactKey: Guid(cb3b4764b1555734b8b92726ad07ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Watering_can.mat using Guid(cb3b4764b1555734b8b92726ad07ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2736acebc8292ac456a1b7a2fb46d8') in 0.148198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Materials/Carpet.mat
+  artifactKey: Guid(9035770b7bdce4fbbb0a10cf2fcc99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Carpet.mat using Guid(9035770b7bdce4fbbb0a10cf2fcc99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba0dc25f41dfaf1079bac4dc72a44d8') in 0.009820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/Match stricking surface.mat
+  artifactKey: Guid(bf92226b2ce274d21b06c0893893fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Match stricking surface.mat using Guid(bf92226b2ce274d21b06c0893893fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3db3361a650ca4088bfa33ac3b08010') in 0.181807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/EffectExamples/SmokeTrail.mat
+  artifactKey: Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/SmokeTrail.mat using Guid(85320f50710fcfb4d886bc56151bea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e844b7a498c0fb1e52f7b03bf9b48730') in 0.074996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Materials/Sweetgrass.mat
+  artifactKey: Guid(26ea26f2da76f411ea58a3b3e346063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sweetgrass.mat using Guid(26ea26f2da76f411ea58a3b3e346063f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd6f5972250075b74ed2ccc5fd3b995') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EffectExamples/GreenSmoke.prefab
+  artifactKey: Guid(57a1fbc1b4c34d042a3ff499f36199c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/GreenSmoke.prefab using Guid(57a1fbc1b4c34d042a3ff499f36199c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912bfbd2e49a5ce6aa98d5a7bf17f684') in 0.088899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Inner Shell.mat
+  artifactKey: Guid(d644c5ddf63d244889e2201d7f1d27de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Inner Shell.mat using Guid(d644c5ddf63d244889e2201d7f1d27de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca619879bb65072f65d9dd1d8322c14e') in 0.141872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EffectExamples/PurpleSmoke.prefab
+  artifactKey: Guid(905e84eb4c193494eac445f07cba93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectExamples/PurpleSmoke.prefab using Guid(905e84eb4c193494eac445f07cba93a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86feec1a64f63227eedef9008f48cd0') in 0.020536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(455f6d64ded6145d3bc2af72de8dd8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(455f6d64ded6145d3bc2af72de8dd8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2c1d0e6d56237403926e4b4bdb4821') in 0.160946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.745925 seconds.
+  path: Assets/Models/bark_bowl_tall.obj
+  artifactKey: Guid(2bc57289051674d50af29ce5f4f5cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/bark_bowl_tall.obj using Guid(2bc57289051674d50af29ce5f4f5cfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c490655641d19cf0e29ce103f2f1919') in 0.203516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Cedar.fbx
+  artifactKey: Guid(bc51d244e8094470c8fc57e68ee613a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cedar.fbx using Guid(bc51d244e8094470c8fc57e68ee613a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb831493cb4e563f166e16453bfb215') in 0.065498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Plant.fbx
+  artifactKey: Guid(8e481640ca85e49c091150ad0c47e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Plant.fbx using Guid(8e481640ca85e49c091150ad0c47e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075277cbf35a56218c20ef884e7e4863') in 0.064997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/table_01.fbx
+  artifactKey: Guid(fae29bf83fa794007a8316dcb69078d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/table_01.fbx using Guid(fae29bf83fa794007a8316dcb69078d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b64ef789f1341ce98b6ff878995bfa1') in 0.069071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/match.fbx
+  artifactKey: Guid(f42cd3b21d83e46038b7082c734937d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/match.fbx using Guid(f42cd3b21d83e46038b7082c734937d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c20ce7787c7fbc4342a884a7624b5f9') in 0.017835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Pouch.fbx
+  artifactKey: Guid(a3ad4a1de01604a43b18dccdd76c6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Pouch.fbx using Guid(a3ad4a1de01604a43b18dccdd76c6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fcec521fce57f75c4e86b76efc617c3') in 0.034920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/leaf.fbx
+  artifactKey: Guid(1f1f7724cf11146da8f18f887e60188d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/leaf.fbx using Guid(1f1f7724cf11146da8f18f887e60188d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb84d082417f658231ffe3ae61c601e2') in 0.076841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Compas.fbx
+  artifactKey: Guid(97d69ac88701e40d2a8a35b477b4779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Compas.fbx using Guid(97d69ac88701e40d2a8a35b477b4779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a685ad3381f85c32a19705ab05a2381') in 0.072061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/sage.fbx
+  artifactKey: Guid(e4fa344d5b2184e1183bfc1a4691097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sage.fbx using Guid(e4fa344d5b2184e1183bfc1a4691097c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f141f3809ba51e3ff165df046816aff3') in 0.182483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/watering can.fbx
+  artifactKey: Guid(d1b616c1f70764ea5aea1bf7abdd176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/watering can.fbx using Guid(d1b616c1f70764ea5aea1bf7abdd176d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609dc335d94af260c406f95cb5fa0c35') in 0.040242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Models/Tabaco seed.fbx
+  artifactKey: Guid(1b96ef65ebac64977932c6013bde63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tabaco seed.fbx using Guid(1b96ef65ebac64977932c6013bde63b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd463a2655069676473a2b65954d9a786') in 0.024290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/sweetgrass.fbx
+  artifactKey: Guid(21a8dcaa7f0ad4c0fb74677649b1b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sweetgrass.fbx using Guid(21a8dcaa7f0ad4c0fb74677649b1b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f8caefa76b45689de1f0f8b1fb431d') in 0.201966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 611.209946 seconds.
+  path: Assets/Materials/WoodLog/Materials/Wood_Log_AO.png
+  artifactKey: Guid(3f755b2ba420f284cabfedd159ca0b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodLog/Materials/Wood_Log_AO.png using Guid(3f755b2ba420f284cabfedd159ca0b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b696cb0e30170f4506cdaba4ecdd94') in 0.049320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/WoodLog/Materials/Wood_Log_height.png
+  artifactKey: Guid(20b87841fde824e4eb1077132f35e373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodLog/Materials/Wood_Log_height.png using Guid(20b87841fde824e4eb1077132f35e373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc06740b4f35a01220fbab9f83f6b8a') in 0.024046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Materials/WoodLog/Materials/WoodLog.mat
+  artifactKey: Guid(385643417fbb4f7418c23a9a8826ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WoodLog/Materials/WoodLog.mat using Guid(385643417fbb4f7418c23a9a8826ec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6925ad3a915200b1640edf0f66c513') in 0.260344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.119266 seconds.
+  path: Assets/Textures/Cedar.png
+  artifactKey: Guid(9c70c5b856fae492e86ba75c7abf714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Cedar.png using Guid(9c70c5b856fae492e86ba75c7abf714c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bdd1b8bb50c9437c9ff27135eba004') in 0.014900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/LeafN.png
+  artifactKey: Guid(e790b890c9314493aa0e2ea739ab211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/LeafN.png using Guid(e790b890c9314493aa0e2ea739ab211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4fef276e37ab8ee74b0d7c79c663cd') in 0.015883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/IMG_3205.JPG
+  artifactKey: Guid(153fe2ee9a1ed421b8233e032f4a2c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/IMG_3205.JPG using Guid(153fe2ee9a1ed421b8233e032f4a2c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71fa1c120543ae7c4a546d88bebbde1') in 0.015851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/feather0.jpg
+  artifactKey: Guid(0ea99b91b8a574b1baf5cfba86d0f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/feather0.jpg using Guid(0ea99b91b8a574b1baf5cfba86d0f75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af3d36cf3cee83d1e9b0118f81758a') in 0.015957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Textures/match Height.jpg
+  artifactKey: Guid(1dee5111024bd4194b7c521af7df3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/match Height.jpg using Guid(1dee5111024bd4194b7c521af7df3138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5aaca59a85260faa4d4183f62d6eac') in 0.009526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Plywood.png
+  artifactKey: Guid(55c4ae34f404f4b30aab06c0507711f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Plywood.png using Guid(55c4ae34f404f4b30aab06c0507711f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03aa658cd084c736cb9f7202f8187101') in 0.011990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Sweetgrass_Texture.png
+  artifactKey: Guid(e4234964e5b2e4303948f1e3f3d38c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Sweetgrass_Texture.png using Guid(e4234964e5b2e4303948f1e3f3d38c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91862df7766a1dabd4d6094e9652f0e') in 0.015778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/featherd.jpg
+  artifactKey: Guid(56693125b6a4c43e3b26c6ae3378aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/featherd.jpg using Guid(56693125b6a4c43e3b26c6ae3378aaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4e1a1b5f5c793fc41cbde7a68d3465') in 0.012519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/Seashell_Texture 2.png
+  artifactKey: Guid(39858f0b285e849f88d8a3d0d335d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Seashell_Texture 2.png using Guid(39858f0b285e849f88d8a3d0d335d992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059ad1a4ddd73a390a46997835ffc47f') in 0.016744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/featherd.png
+  artifactKey: Guid(a5663a955815f4b2b99805262981733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/featherd.png using Guid(a5663a955815f4b2b99805262981733f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93f9b830ff6e46b894e47aef164373b') in 0.012582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.884855 seconds.
+  path: Assets/Terrains/New Terrain 1.asset
+  artifactKey: Guid(bdef14003ad2de946b75157eca83037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/New Terrain 1.asset using Guid(bdef14003ad2de946b75157eca83037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59479fd7d984a834f05a6587e37a5668') in 0.009154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Terrains/NewLayer.terrainlayer
+  artifactKey: Guid(b8f0e77a410cc4015be8ff8125b81eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/NewLayer.terrainlayer using Guid(b8f0e77a410cc4015be8ff8125b81eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d90c3a45a6eb16851a56b4cacd20ff4') in 0.021658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Terrains/New Terrain 2.asset
+  artifactKey: Guid(d16582627ef274e40a7a2b789cb01d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains/New Terrain 2.asset using Guid(d16582627ef274e40a7a2b789cb01d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437214682ea44ca4da8d71f91c43b89a') in 0.025465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.693026 seconds.
+  path: Assets/Resources/ONSPSettings.asset
+  artifactKey: Guid(7e92dc9664cfaf34ea9f9026c826d0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ONSPSettings.asset using Guid(7e92dc9664cfaf34ea9f9026c826d0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b82fa4896fa63e142c71b3497c79c5') in 0.001654 seconds 
+=======
   Time since last request: 7976.387261 seconds.
   path: Assets/Terrains/New Terrain 3.asset
   artifactKey: Guid(e5828ba277ee546dca7bc47ad64edd35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -590,3 +975,4 @@ Received Import Request.
   path: Assets/Environment/Water_FX_Collection/Fire_Hose/FBX/Materials/phong9.mat
   artifactKey: Guid(4748f550a050ac34c9be800d801e2820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Environment/Water_FX_Collection/Fire_Hose/FBX/Materials/phong9.mat using Guid(4748f550a050ac34c9be800d801e2820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9f2f2ffec5ef379edc4dfc4674272c') in 0.005917 seconds 
+>>>>>>> parent of 169e2704 (replace missing prefab and add log)
