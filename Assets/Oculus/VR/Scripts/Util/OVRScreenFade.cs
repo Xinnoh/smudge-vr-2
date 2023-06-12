@@ -227,7 +227,7 @@ public class OVRScreenFade : MonoBehaviour
     private void SetMaterialAlpha()
     {
         Color color = fadeColor;
-        color.a = currentAlpha;
+        color.a = 0;
         isFading = color.a > 0;
         if (fadeMaterial != null)
         {
