@@ -69,7 +69,6 @@
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\AnchorSession.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\SpatialAnchor\Scripts\SpatialAnchorSession.cs" />
      <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-     <Compile Include="Assets\Scripts\SceneLoad.cs" />
      <Compile Include="Assets\Scripts\WateringPlant.cs" />
      <Compile Include="Assets\Animals Full Pack Sound FX\Scripts\AnimalSFX.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\DistanceGrab\Scripts\PauseOnInputLoss.cs" />
@@ -91,12 +90,14 @@
      <Compile Include="Assets\Environment\UniStorm Weather System\Scripts\Demo\Pause.cs" />
      <Compile Include="Assets\Environment\UniStorm Weather System\Scripts\Clouds\UniStormClouds.cs" />
      <Compile Include="Assets\Environment\UniStorm Weather System\Scripts\Components\DespawnObjectUniStorm.cs" />
+     <Compile Include="Assets\Scripts\FunctionTimer.cs" />
      <Compile Include="Assets\Sardine\Scripts\IwasiMove.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\Passthrough\Scripts\PassthroughSurface.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\Locomotion\Scripts\TeleportPoint.cs" />
      <Compile Include="Assets\Environment\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiDeviceInspector.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\Scripts\Sound.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\TouchPro\Scripts\Ui\UiAxis2dInspector.cs" />
      <Compile Include="Assets\Environment\UniStorm Weather System\Scripts\Clouds\ScreenSpaceCloudShadows.cs" />
      <Compile Include="Assets\Models\ANIMALS FULL PACK\Bear_Female\scripts\Demo_Animator_BearFemale.cs" />
@@ -115,7 +116,6 @@
      <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\SelectionCylinder.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Scripts\PanelHMDFollower.cs" />
-     <Compile Include="Assets\Scripts\Pouch.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Usage\DebugUI\DebugUISample.cs" />
@@ -317,6 +317,7 @@
      <Compile Include="Assets\Environment\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
      <Compile Include="Assets\Environment\Water_FX_Collection\Beach_Waves\Water\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\Scripts\SmudgeManager.cs" />
      <Compile Include="Assets\Environment\Water_FX_Collection\Beach_Waves\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Scripts\Tools\FingerTipPokeToolView.cs" />
      <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
