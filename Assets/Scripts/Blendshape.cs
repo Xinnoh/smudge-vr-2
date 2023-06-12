@@ -9,7 +9,6 @@ public class Blendshape : MonoBehaviour
     int blendShapeCount;
 
     int playIndex = 0;
-    float blend = 0;
     int blendIndex = 0;
     public int frames = 1;
     public bool start = false;
