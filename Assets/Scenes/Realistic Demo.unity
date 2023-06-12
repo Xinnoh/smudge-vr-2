@@ -223,8 +223,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78929107}
-  m_LocalRotation: {x: -0.12832151, y: 0.044131234, z: 0.0058509614, w: 0.9907329}
-  m_LocalPosition: {x: 57.926964, y: -15.549861, z: 301.84827}
+  m_LocalRotation: {x: -0.21800478, y: 0.09382364, z: 0.021057237, w: 0.9711991}
+  m_LocalPosition: {x: 58.656696, y: -10.430403, z: 309.9757}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2388,6 +2388,7 @@ MonoBehaviour:
   eagleAnimator: {fileID: 126889919}
   presentPrefab: {fileID: 1558782600}
   presentSpawnPoint: {fileID: 1151512880}
+  compass: {fileID: 2065488637}
 --- !u!82 &126889921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2400,7 +2401,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 1079612329445679667, guid: b4b3809e34f54354a87bd44243ef2707, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1e632cc601bd3466eba6d966d84eb64e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.516
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5683,11 +5684,11 @@ Terrain:
   m_ShadowCastingMode: 0
   m_DrawHeightmap: 1
   m_DrawInstanced: 1
-  m_DrawTreesAndFoliage: 1
+  m_DrawTreesAndFoliage: 0
   m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 0
   m_MaterialTemplate: {fileID: 2100000, guid: d6532a2578c89a148b94c3acd647ad0c, type: 2}
-  m_BakeLightProbesForTrees: 0
+  m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 1
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256

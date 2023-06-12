@@ -8,6 +8,7 @@ public class NextScene : MonoBehaviour
     public ParticleSystem ring;
     public string nextSceneName;
     public bool complete = false;
+    private bool doOnce = false;
 
      private void OnTriggerEnter(Collider other)
     {
@@ -16,7 +17,7 @@ public class NextScene : MonoBehaviour
         Debug.Log("Played1");
 
         if(complete){
-            if (other.CompareTag("Hand"))
+            if (other.CompareTag("Hand") && !doOnce)
             {
 
                 Debug.Log("Played2");
@@ -26,6 +27,7 @@ public class NextScene : MonoBehaviour
 
                 // Start the coroutine to load the next scene after a delay
                 StartCoroutine(LoadSceneAfterDelay(2));
+                doOnce = true;
             }
         }
     }
