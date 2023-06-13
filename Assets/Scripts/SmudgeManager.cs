@@ -10,7 +10,7 @@ public class SmudgeManager : MonoBehaviour
   private AudioSource[] audioSources;
   public int stage;
   private const int MaxRate = 100;
-  private bool stageActive;
+  public bool stageActive;
     //Awake is called before Start()
     void Awake()
     {
