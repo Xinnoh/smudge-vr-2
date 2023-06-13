@@ -11,14 +11,7 @@ public class FishEagleInteraction : MonoBehaviour
     private GameObject presentObject;
     public GameObject compass;
 
-    private IEnumerator WaitForAnimation()
-    {
-        // Wait for the animation clip to complete
-        yield return new WaitForSeconds(eagleAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
-
-        // Show the present object
-        presentObject.SetActive(true);
-    }
+    public ParticleSystem eat;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,11 +30,26 @@ public class FishEagleInteraction : MonoBehaviour
             // Hide the present object initially
             presentObject.SetActive(false);
 
+            // Plays eating animation
+            eat.gameObject.SetActive(true);
+            eat.Play();
+
+
             // Start a coroutine to wait for the animation clip to complete
             StartCoroutine(WaitForAnimation());
 
             compass.GetComponent<NextScene>().complete = true;
 
         }
+    }
+
+    
+    private IEnumerator WaitForAnimation()
+    {
+        // Wait for the animation clip to complete
+        yield return new WaitForSeconds(eagleAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+
+        // Show the present object
+        presentObject.SetActive(true);
     }
 }

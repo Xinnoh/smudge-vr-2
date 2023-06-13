@@ -10,6 +10,11 @@ public class NextScene : MonoBehaviour
     public bool complete = false;
     private bool doOnce = false;
 
+
+
+
+    private bool debugMode = true;
+
      private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collided object tag: " + other.gameObject.tag);
@@ -39,8 +44,15 @@ public class NextScene : MonoBehaviour
         // Wait for the specified delay
         yield return new WaitForSeconds(delay);
         
+
             Debug.Log("Played4");
         // Load the next scene
-        SceneManager.LoadScene(nextSceneName);
+        if(!debugMode)
+        {
+            SceneManager.LoadScene(nextSceneName);
+        }
+        else{
+            Debug.Log("PSA: SCENE CHANGE DISABLED TO TEST STUFF - ZAK");
+        }
     }
 }

@@ -29,11 +29,11 @@ public class SardineCharacter : MonoBehaviour {
 	}
 
 	public void TurnUp(){
-		sardineRigid.AddTorque (-transform.right*turnSpeed,ForceMode.Impulse);
+		// sardineRigid.AddTorque (-transform.right*turnSpeed,ForceMode.Impulse);
 	}
 
 	public void TurnDown(){
-		sardineRigid.AddTorque (transform.right*turnSpeed,ForceMode.Impulse);
+		// sardineRigid.AddTorque (transform.right*turnSpeed,ForceMode.Impulse);
 	}
 
 	public void setForwardSpeed(float fSpeed){
