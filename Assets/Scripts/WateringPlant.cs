@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class WateringPlant : MonoBehaviour
 {
-    public Blendshape plantBlendshape;
+    public Blendshape blendshape;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("WateringParticle"))
+        if (other.CompareTag("WateringParticleSystem"))
         {
-            // Trigger the blendshape animation on the plant
-            plantBlendshape.StartBlendshapeAnimation();
+            // Start the blend shape animation
+            blendshape.StartBlendshapeAnimation();
         }
     }
 }

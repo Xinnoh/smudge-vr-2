@@ -56,6 +56,16 @@ public class Blendshape : MonoBehaviour
         {
             // Call the StartBlendshapeAnimation() method to begin the blendshape animation
             StartBlendshapeAnimation();
+
+            // Find and stop the watering particle system
+            var particleSystems = FindObjectsOfType<ParticleSystem>();
+            foreach (var particleSystem in particleSystems)
+            {
+                if (particleSystem.CompareTag("WateringParticleSystem"))
+                {
+                    particleSystem.Stop();
+                }
+            }
         }
-    }
+        }
 }
