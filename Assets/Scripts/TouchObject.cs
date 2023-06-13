@@ -14,6 +14,8 @@ public class TouchObject : MonoBehaviour
     public int waitTime2 = 1;
     public int startDelay = 2;
 
+    private bool doOnce = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -57,8 +59,11 @@ public class TouchObject : MonoBehaviour
 
     private void StartSequence(){
 
-        StartCoroutine(WaitAndPrint());
-
+        if(!doOnce)
+        {
+            StartCoroutine(WaitAndPrint());
+            doOnce = true;
+        }
 
     }
 
@@ -76,19 +81,27 @@ public class TouchObject : MonoBehaviour
         emission.enabled = true;
         emission2.enabled = true;
 
+        // Wait X seconds then start
+
         yield return new WaitForSeconds(WatchTime);
 
-        emission.enabled = false;
-        emission2.enabled = false;
+        // emission.enabled = false;
+        // emission2.enabled = false;
+
+        // Disable after X seconds
         
         yield return new WaitForSeconds(waitTime2);
 
         hand.enabled = true;
 
+        // Enable temporary particles on hand after X seconds
+
         yield return new WaitForSeconds(WatchTime);
 
         hand.enabled = false;
         ember.enabled = true;
+
+        // Disable temporary particles, enable permanent embers
 
 
     }

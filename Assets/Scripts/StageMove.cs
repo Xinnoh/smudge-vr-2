@@ -9,7 +9,7 @@ public class StageMove : MonoBehaviour
   private SmudgeManager controller;
 
   void Start(){
-    controller = manager.gameObject.GetComponent<SmudgeManager>();
+    // controller = manager.gameObject.GetComponent<SmudgeManager>();
   }
   private void OnTriggerEnter(Collider other){
     if(other.tag == "Player"){
