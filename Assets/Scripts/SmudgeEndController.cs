@@ -22,6 +22,9 @@ public class SmudgeEndController : MonoBehaviour
     public GameObject ball3;
     public GameObject matchbox;
     public GameObject match;
+    public ParticleSystem ending;
+    public ParticleSystem ending2;
+    public ParticleSystem endingSmoke;
     private Renderer ballRenderer;
     private Matchbox matchboxScript;
     private bool playedRing = false;
@@ -30,25 +33,16 @@ public class SmudgeEndController : MonoBehaviour
 
     void Start()
     {
+
         matchboxScript = matchbox.GetComponent<Matchbox>();
-        if (matchboxScript != null)
-        {
-            // Access the public int variable from the other script
-            phase5 = matchboxScript.nextPhase;
-            Debug.Log("Value of publicInt: " + phase5);
-        }
 
     }
     
     void Update()
     {
-        if (matchboxScript != null)
+        if (stage == 6)
         {
-            // Access the public int variable from the other script
-            phase5 = matchboxScript.nextPhase;
-            if(phase5){
-                stage = 5;
-            }
+            StartCoroutine(EndSequence());
         }
 
         if(!cooldown){
@@ -112,7 +106,13 @@ public class SmudgeEndController : MonoBehaviour
             Vector3 matchboxPosition = matchbox.transform.position;
             PlaySmallRing(matchPosition);
             StartCoroutine(delaySmallRing(matchboxPosition));
-
+        }
+        
+        if(stage == 5){
+            Vector3 matchPosition = match.transform.position;
+            Vector3 abalonePosition = endingSmoke.transform.position;
+            PlaySmallRing(matchPosition);
+            StartCoroutine(delaySmallRing(abalonePosition));
         }
     }
 
@@ -130,6 +130,22 @@ public class SmudgeEndController : MonoBehaviour
         position += new Vector3(0f, 1, 0f);
         ParticleSystem particleSystemInstance = Instantiate(bigRing, position, Quaternion.identity);
         particleSystemInstance.Play();
+    }
+
+    
+    private IEnumerator EndSequence()
+    {
+        var smokeEmission = endingSmoke.emission;
+        smokeEmission.enabled = true;
+
+
+        yield return new WaitForSeconds(3f);
+
+        var emission = ending.emission;
+        emission.enabled = true;
+        var emission2 = ending2.emission;
+        emission2.enabled = true;
+
     }
 
     // Waits for 2 seconds before playing a big ring

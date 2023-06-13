@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2277.3335
     height: 1340.6667
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 59
+  controlID: 142
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 539.33325
     height: 1290.6666
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 62
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 61
+  controlID: 63
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -305,7 +305,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: smoke
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/EffectExamples/WeaponEffects/Materials
+    - Assets/EffectExamples
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: smoke
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/EffectExamples/WeaponEffects/Materials
+  - Assets/EffectExamples
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Z\Documents\GitHub\localfork\smudge-vr-2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 399}
-    m_SelectedIDs: 44530400
-    m_LastClickedID: 283460
-    m_ExpandedIDs: 000000000c8a0000be8c0000c08c00001a8d0000208d00003a8d0000d0ce0100d2ce0100d4ce010000ca9a3b
+    scrollPos: {x: 0, y: 111}
+    m_SelectedIDs: 4e8a0000
+    m_LastClickedID: 35406
+    m_ExpandedIDs: 000000004c8a00004e8a0000508a0000528a0000268d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c8a0000
+    m_ExpandedIDs: 000000004c8a00004e8a0000508a0000528a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 216
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -487,24 +487,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 296}
-      m_SelectedIDs: e01af7ff
-      m_LastClickedID: -582944
-      m_ExpandedIDs: 00c3f4ff1ee1f4ffe01af7fff435f7ff264efaff9880faff4684faff4a84faffb49bfaffe6a4faffeaa4faffdef6ffffe4f6fffff8f6ffff02f7ffff50f8ffff42f9ffff44f9fffffcfaffff8a7d0000b87d0000c67d0000007e0000167e0000387e0000527e00009e7e0000e47e0000e67e0000e87e00006c7f00008c7f0000
+      scrollPos: {x: 0, y: 252}
+      m_SelectedIDs: 087f0000
+      m_LastClickedID: 32520
+      m_ExpandedIDs: 06f5ffffaaf9fffffcfaffff487d0000bc7d0000ee7d0000467e0000607e0000aa7e0000087f00000a7f00009a7f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: EndingParticles
+        m_OriginalName: EndingParticles
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 32072
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -733,7 +733,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: -232, y: -193.33331}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -16.76548, y: 4.707321, z: -26.600567}
+    m_Target: {x: -0.6362829, y: 0.9823012, z: -0.010248542}
     speed: 2
-    m_Value: {x: -16.76548, y: 4.707321, z: -26.600567}
+    m_Value: {x: -0.6362829, y: 0.9823012, z: -0.010248542}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -820,13 +820,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.009520699, y: 0.958869, z: -0.023596747, w: -0.28655565}
+    m_Target: {x: 0.008959732, y: 0.9416281, z: -0.3383289, w: 0.035400786}
     speed: 2
-    m_Value: {x: -0.009510285, y: 0.9578201, z: -0.023570936, w: -0.2862422}
+    m_Value: {x: 0.008895931, y: 0.94097626, z: -0.33650184, w: 0.03537058}
   m_Size:
-    m_Target: 28.532808
+    m_Target: 1.5312098
     speed: 2
-    m_Value: 27.304123
+    m_Value: 1.5312098
   m_Ortho:
     m_Target: 0
     speed: 2

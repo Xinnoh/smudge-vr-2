@@ -6,16 +6,15 @@ public class Matchbox : MonoBehaviour
 {
     public ParticleSystem particleEffect;  // The particle effect to play
     private bool matchLit = false;  // Ensures the effect only plays once
-    public bool nextPhase = false;
-    
+    private SmudgeEndController otherScript;
     public GameObject stateManager;
 
     // Start is called before the first frame update
     void Start()
     {
-            var emission = particleEffect.emission;
-            emission.enabled = false;
-
+        var emission = particleEffect.emission;
+        emission.enabled = false;
+        otherScript = stateManager.GetComponent<SmudgeEndController>();
     }
 
     // Update is called once per frame
@@ -49,16 +48,17 @@ public class Matchbox : MonoBehaviour
                 // If so, play the particle effect and mark the collision as having happened
                 var emission = particleEffect.emission;
                 emission.enabled = true;
+                matchLit = true;
+                otherScript.stage = 5;
             }
         }
-
-        if (other.gameObject.CompareTag("Bowl"))
-        {
-            Debug.Log("True");
-            nextPhase = true;
+        
+        if(matchLit){
+            if (other.gameObject.CompareTag("Bowl"))
+            {
+                otherScript.stage = 6;
+            }
         }
-    
-
     }
     
 
