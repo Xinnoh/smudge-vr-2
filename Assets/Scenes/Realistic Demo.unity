@@ -393,8 +393,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78929107}
-  m_LocalRotation: {x: -0.13591473, y: -0.28832656, z: -0.045618586, w: 0.9467386}
-  m_LocalPosition: {x: 61.620987, y: -9.490604, z: 311.06082}
+  m_LocalRotation: {x: -0.08997863, y: -0.5720887, z: -0.069456354, w: 0.8122772}
+  m_LocalPosition: {x: 60.830753, y: -8.956689, z: 310.8734}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17135,6 +17135,84 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &265154311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265154314}
+  - component: {fileID: 265154313}
+  - component: {fileID: 265154312}
+  m_Layer: 0
+  m_Name: Terrain_(-500.00, -213.00, 500.00)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!154 &265154312
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265154311}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 4ac665af8f062ef4cbea179c13fb25bb, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &265154313
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265154311}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 4ac665af8f062ef4cbea179c13fb25bb, type: 2}
+  m_TreeDistance: 1000
+  m_TreeBillboardDistance: 300
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 200
+  m_DetailObjectDensity: 0.7
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 1
+  m_DrawTreesAndFoliage: 0
+  m_StaticShadowCaster: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 2100000, guid: d6532a2578c89a148b94c3acd647ad0c, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 1
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!4 &265154314
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265154311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -500, y: -213, z: 500}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &302946941
 GameObject:
   m_ObjectHideFlags: 0
@@ -17174,7 +17252,7 @@ Transform:
   - {fileID: 1596349269}
   - {fileID: 2006242334}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303655656 stripped
 GameObject:
@@ -17404,7 +17482,7 @@ Transform:
   - {fileID: 180031471}
   - {fileID: 1660206167}
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &406015767
 PrefabInstance:
@@ -22598,7 +22676,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &523226573
 MonoBehaviour:
@@ -22643,11 +22721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.476
+      value: -6.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 314.26
+      value: 314.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22709,8 +22787,16 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
       objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
+      value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_TagString
       value: Plant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22761,8 +22847,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.013363138, y: 0.011038208, z: 0.015901258}
-  m_Center: {x: -0.00010757446, y: -0.0005612209, z: 0.007810337}
+  m_Size: {x: 0.013363138, y: 0.011038208, z: 0.05287456}
+  m_Center: {x: -0.00010757446, y: -0.0005612209, z: 0.026297083}
 --- !u!114 &575139260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22775,28 +22861,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 216987d60b3404f62b2b9eec87c37623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frames: 20
+  frames: 3
   start: 0
---- !u!95 &575139263
-Animator:
-  serializedVersion: 4
+--- !u!4 &575139265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+  m_PrefabInstance: {fileID: 575139255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &575139266
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575139256}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a83e706bd4f4da2439634e12555b2aaf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f953183bc1959644ba5b1bda279f8f45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystem: {fileID: 1442349723}
 --- !u!1 &620509382
 GameObject:
   m_ObjectHideFlags: 0
@@ -29788,7 +29872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.6206398
+      value: -1.308
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29796,7 +29880,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.89715576
+      value: -0.785
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29858,9 +29942,21 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
       objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[219]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
       value: Plant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_TagString
+      value: Plant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -29910,8 +30006,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.012515553, y: 0.010450247, z: 0.011322949}
-  m_Center: {x: -0.000948607, y: -0.00089793606, z: 0.0055210385}
+  m_Size: {x: 0.029868107, y: 0.027225787, z: 0.05538482}
+  m_Center: {x: -0.000017271355, y: 0.0019264752, z: 0.027552053}
 --- !u!114 &1176422328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29948,6 +30044,19 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &1176422334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176422324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f953183bc1959644ba5b1bda279f8f45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleSystem: {fileID: 1442349723}
 --- !u!1 &1194403106
 GameObject:
   m_ObjectHideFlags: 1
@@ -30015,9 +30124,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1303995838}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 64.89064, y: -5.6774473, z: 315.50714}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.60235685, y: -0.37035954, z: -0.37035957, w: 0.6023569}
+  m_LocalPosition: {x: -0.03466598, y: -0.16418047, z: 0.020660704}
+  m_LocalScale: {x: 0.03333334, y: 0.03333334, z: 0.033333343}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1176422330}
@@ -30025,8 +30134,8 @@ Transform:
   - {fileID: 1446926359}
   - {fileID: 2118340559}
   - {fileID: 1151512880}
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 6645823806274704091}
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1340405870
 GameObject:
@@ -39596,9 +39705,21 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
       objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[219]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
       value: Plant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_TagString
+      value: Plant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39648,8 +39769,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.008813483, y: 0.010514337, z: 0.010026936}
-  m_Center: {x: 0.00087458, y: 0.000535884, z: 0.004873045}
+  m_Size: {x: 0.00881348, y: 0.010514337, z: 0.054639734}
+  m_Center: {x: 0.0008745784, y: 0.00053588575, z: 0.027179565}
 --- !u!114 &1400252997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39750,6 +39871,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: TriggerModule.inside
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
       propertyPath: TriggerModule.enabled
       value: 1
       objectReference: {fileID: 0}
@@ -39770,12 +39895,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: CollisionModule.colliderForce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
       propertyPath: InitialModule.maxNumParticles
       value: 5000
       objectReference: {fileID: 0}
     - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: CollisionModule.collisionMessages
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
       propertyPath: InitialModule.startSize.minScalar
@@ -39825,6 +39958,18 @@ PrefabInstance:
       propertyPath: TriggerModule.primitives.Array.data[4]
       value: 
       objectReference: {fileID: 1151512880}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: TriggerModule.primitives.Array.data[5]
+      value: 
+      objectReference: {fileID: 575139265}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: CollisionModule.multiplyColliderForceByParticleSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
+      propertyPath: CollisionModule.multiplyColliderForceByParticleSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9006501188156576332, guid: 518328fffeff9cd48868116c939ece10, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -39842,24 +39987,6 @@ ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 9006501188155908754, guid: 518328fffeff9cd48868116c939ece10, type: 3}
   m_PrefabInstance: {fileID: 1442349721}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1442349724 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9006501188136799338, guid: 518328fffeff9cd48868116c939ece10, type: 3}
-  m_PrefabInstance: {fileID: 1442349721}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1442349727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1442349724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df23a3abc8440ab459f998e31054002f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wateringParticles: {fileID: 0}
 --- !u!1 &1446210652
 GameObject:
   m_ObjectHideFlags: 0
@@ -40053,6 +40180,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
       objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
       value: Plant (3)
@@ -40105,8 +40236,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0082562845, y: 0.008997602, z: 0.009346249}
-  m_Center: {x: 0.0010056774, y: 0.00092295307, z: 0.0045327125}
+  m_Size: {x: 0.008256282, y: 0.008997602, z: 0.055282056}
+  m_Center: {x: 0.0010056755, y: 0.0009229548, z: 0.027500685}
 --- !u!114 &1446926357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50710,15 +50841,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.264641
+      value: -5.265
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49444723
+      value: 0.547
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.630127
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -50779,6 +50910,14 @@ PrefabInstance:
     - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[219]
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
@@ -50857,8 +50996,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.013074377, y: 0.011328129, z: 0.008204092}
-  m_Center: {x: 0.0009052933, y: 0.00015950699, z: 0.0039616334}
+  m_Size: {x: 0.01307437, y: 0.011328129, z: 0.052330654}
+  m_Center: {x: 0.00090529176, y: 0.0001595088, z: 0.026025068}
 --- !u!114 &1558782605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56189,8 +56328,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.019844724, y: 0.024082376, z: 0.029025227}
-  m_Center: {x: -0.0000009525528, y: 0.0016901726, z: 0.014470443}
+  m_Size: {x: 0.019844728, y: 0.037069313, z: 0.029025225}
+  m_Center: {x: -0.0000009526138, y: -0.004803246, z: 0.014470446}
 --- !u!1001 &1751802396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60986,6 +61125,10 @@ PrefabInstance:
       propertyPath: m_AABB.m_Extent.z
       value: 0.024692174
       objectReference: {fileID: 0}
+    - target: {fileID: -3887185075125053422, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[0]
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8e481640ca85e49c091150ad0c47e71d, type: 3}
       propertyPath: m_Name
       value: Plant (4)
@@ -61038,8 +61181,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.009242007, y: 0.0063324044, z: 0.008598837}
-  m_Center: {x: 0.0007043178, y: -0.0011410534, z: 0.0041590063}
+  m_Size: {x: 0.009242007, y: 0.006332404, z: 0.05533255}
+  m_Center: {x: 0.0007043163, y: -0.0011410518, z: 0.027525932}
 --- !u!114 &2118340557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61233,6 +61376,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1442349722}
+  - {fileID: 1303995839}
   m_Father: {fileID: 543450652000186113}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

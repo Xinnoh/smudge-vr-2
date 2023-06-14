@@ -8,8 +8,8 @@ public class Blendshape : MonoBehaviour
     Mesh skinnedMesh;
     int blendShapeCount;
 
-    int playIndex = 0;
-    int blendIndex = 0;
+    int playIndex = 1;
+    int blendIndex = 1;
     public int frames = 1;
     public bool start = false;
 
