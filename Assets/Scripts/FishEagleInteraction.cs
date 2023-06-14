@@ -9,7 +9,7 @@ public class FishEagleInteraction : MonoBehaviour
 
     private bool isFishGiven = false;
     private GameObject presentObject;
-    public NextScene compass;
+    public GameObject compass;
 
     public ParticleSystem eat;
     public AudioSource audioSource;
@@ -43,7 +43,7 @@ public class FishEagleInteraction : MonoBehaviour
             // Start a coroutine to wait for the animation clip to complete
             StartCoroutine(WaitForAnimation());
 
-            compass.complete = true;
+            compass.GetComponent<NextScene>().complete = true;
         }
     }
 
