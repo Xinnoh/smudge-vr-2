@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using OculusSampleFramework;
+using UnityEngine.Audio;
 
 public class SmudgeEndController : MonoBehaviour
 {
@@ -27,8 +28,12 @@ public class SmudgeEndController : MonoBehaviour
     public ParticleSystem endingSmoke;
     private Renderer ballRenderer;
     private Matchbox matchboxScript;
-    private bool playedRing = false;
     private bool cooldown = false;
+    private AudioSource[] audioSources;
+     public Sound[] sounds;
+
+     private int localStage = 0;
+
     private bool phase5;
 
     void Start()
@@ -38,8 +43,23 @@ public class SmudgeEndController : MonoBehaviour
 
     }
     
+    void Awake()
+    {
+      audioSources = gameObject.GetComponents<AudioSource>();
+      sounds[0].source = audioSources[0];
+      for(int i = 1; i < sounds.Length; i++){       //Create audiosources for all sound clips
+        sounds[i].source = audioSources[1];
+      }
+    }
+
+
     void Update()
     {
+        if(stage != localStage){
+            stageChange();
+            localStage = stage;
+        }
+
         if (stage == 6)
         {
             StartCoroutine(EndSequence());
@@ -57,10 +77,67 @@ public class SmudgeEndController : MonoBehaviour
         }
     }
 
+    private void stageChange(){
+
+        if(stage == 1){
+            System.Action b1 = ()=>{Play("C1");};
+            FunctionTimer.Create(b1, 1f);
+            System.Action b2 = ()=>{Play("C2");};
+            FunctionTimer.Create(b2, 9f);
+            System.Action b3 = ()=>{Play("C3");};
+            FunctionTimer.Create(b3, 13f);
+            System.Action b4 = ()=>{Play("C4");};
+            FunctionTimer.Create(b4, 20f);
+            System.Action b5 = ()=>{Play("C5");};
+            FunctionTimer.Create(b5, 30f);
+            System.Action b6 = ()=>{Play("C6");};
+            FunctionTimer.Create(b6, 37f);
+        }
+
+        if(stage == 2){
+            System.Action b7 = ()=>{Play("C7");};
+            FunctionTimer.Create(b7, 3f);
+
+            
+        }
+        if(stage == 3){
+            System.Action b8 = ()=>{Play("C8");};
+            FunctionTimer.Create(b8, 3f);
+        }
+        if(stage == 4){
+            System.Action b9 = ()=>{Play("C9");};
+            FunctionTimer.Create(b9, 3f);
+            
+        }
+        if(stage == 5){
+            System.Action b10 = ()=>{Play("C10");};
+            FunctionTimer.Create(b10, 3f);
+            System.Action b11 = ()=>{Play("C11");};
+            FunctionTimer.Create(b11, 5f);
+            System.Action b12 = ()=>{Play("C11");};
+            FunctionTimer.Create(b12, 10f);
+            
+        }
+
+        
+    }
+
+
+    private void Play(string name){
+      for(int i = 0; i < sounds.Length; i++){
+        if(sounds[i].name == name){
+          sounds[i].source.clip = sounds[i].clip;
+          sounds[i].source.volume = sounds[i].volume;
+          sounds[i].source.spatialBlend = sounds[i].spatialBlend;
+          sounds[i].source.Play();
+          Debug.Log(name + " played");
+        }
+      }
+    }
+
 
     private void HelpPlayer(){
         StartCoroutine(Cooldown());
-        playedRing = false;
 
         // During gifting phase
         if(stage == 1 || stage == 2 || stage == 3){
