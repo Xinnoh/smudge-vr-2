@@ -46,7 +46,7 @@ public class TouchObject : MonoBehaviour
         // This assumes your hand object is tagged with "Hand"
         if (other.gameObject.tag == "Player")
         {
-            StartSequence();
+            // StartSequence();
         }
 
         if (other.gameObject.tag == "Hand")

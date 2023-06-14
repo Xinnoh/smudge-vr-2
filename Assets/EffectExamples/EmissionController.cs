@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EmissionController : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class EmissionController : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0)) 
         {
+            SceneManager.LoadScene("smudgeEnd");
             particleCounter += 1;
             TurnOnSystem(particleCounter);
             Debug.Log(particleCounter);

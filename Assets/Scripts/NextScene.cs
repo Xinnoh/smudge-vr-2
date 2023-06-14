@@ -11,28 +11,37 @@ public class NextScene : MonoBehaviour
     private bool doOnce = false;
 
 
+    void update(){
+        if (Input.GetMouseButtonDown(1)){
+            Debug.Log(
+                "CLICK"
+            );
+            SceneManager.LoadScene(nextSceneName);
+        }
+    }
 
-
-    private bool debugMode = true;
+    private bool debugMode = false;
 
      private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collided object tag: " + other.gameObject.tag);
-
-        Debug.Log("Played1");
-
         if(complete){
-            if (other.CompareTag("Hand") && !doOnce)
-            {
+            Debug.Log("Collided object tag: " + other.gameObject.tag);
 
-                Debug.Log("Played2");
-                // Play the ring effect
-                var emission = ring.emission;
-                emission.enabled = true;
+            Debug.Log("Played1");
 
-                // Start the coroutine to load the next scene after a delay
-                StartCoroutine(LoadSceneAfterDelay(2));
-                doOnce = true;
+            if(complete){
+                if (other.CompareTag("Hand") && !doOnce)
+                {
+
+                    Debug.Log("Played2");
+                    // Play the ring effect
+                    var emission = ring.emission;
+                    emission.enabled = true;
+
+                    // Start the coroutine to load the next scene after a delay
+                    StartCoroutine(LoadSceneAfterDelay(2));
+                    doOnce = true;
+                }
             }
         }
     }

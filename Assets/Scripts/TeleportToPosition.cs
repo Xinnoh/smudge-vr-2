@@ -11,7 +11,7 @@ public class TeleportToPosition : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.JoystickButton1) || Input.GetKeyDown(KeyCode.JoystickButton3))
         {
             // Teleport the player to the target position
-            transform.position = targetPosition;
+            // transform.position = targetPosition;
         }
     }
 }

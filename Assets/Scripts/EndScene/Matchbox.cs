@@ -57,6 +57,8 @@ public class Matchbox : MonoBehaviour
             if (other.gameObject.CompareTag("Bowl"))
             {
                 otherScript.stage = 6;
+                var emission = particleEffect.emission;
+                emission.enabled = false;
             }
         }
     }
