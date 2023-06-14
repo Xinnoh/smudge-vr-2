@@ -15,6 +15,10 @@ public class StageMove : MonoBehaviour
       FunctionTimer.Create(enableTouch, 47f);
 
   }
+
+private void OnMouseDown() {
+  canTouch = true;
+}
   private void OnTriggerEnter(Collider other){
     if(other.tag == "Hand" && canTouch){
       Debug.Log("Stage attempt");
