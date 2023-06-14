@@ -38,11 +38,11 @@ public class SmudgeManager : MonoBehaviour
     {
       Play("Music");
       System.Action bakeC2 = ()=>{Play("C2");};
-      FunctionTimer.Create(bakeC2, 10f);
+      FunctionTimer.Create(bakeC2, 20f);
       System.Action bakeC3 = ()=>{Play("C3");};
-      FunctionTimer.Create(bakeC3, 35f);
+      FunctionTimer.Create(bakeC3, 45f);
       System.Action bakeC4 = ()=>{Play("C4");};
-      FunctionTimer.Create(bakeC4, 46f);
+      FunctionTimer.Create(bakeC4, 56f);
 
     }
 
