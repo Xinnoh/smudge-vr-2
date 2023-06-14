@@ -12,6 +12,8 @@ public class FishEagleInteraction : MonoBehaviour
     public GameObject compass;
 
     public ParticleSystem eat;
+    public AudioSource audioSource;
+    public AudioClip presentSound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -34,16 +36,16 @@ public class FishEagleInteraction : MonoBehaviour
             eat.gameObject.SetActive(true);
             eat.Play();
 
+            // Play the present sound
+            audioSource.PlayOneShot(presentSound);
 
             // Start a coroutine to wait for the animation clip to complete
             StartCoroutine(WaitForAnimation());
 
             compass.GetComponent<NextScene>().complete = true;
-
         }
     }
 
-    
     private IEnumerator WaitForAnimation()
     {
         // Wait for the animation clip to complete

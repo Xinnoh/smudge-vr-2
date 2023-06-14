@@ -19,7 +19,7 @@ public class WateringScript : MonoBehaviour
         float angleDifference = Quaternion.Angle(initialRotation, currentRotation);
 
         // Check if the angle difference is greater than 45 degrees
-        if (angleDifference > 45f)
+        if (angleDifference > 45f && angleDifference <= 270f)
         {
             // Start watering
             if (!isWatering)
