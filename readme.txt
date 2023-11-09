@@ -1,1 +1,1 @@
-Always remove the library folder before uploading
+gitignore broke
